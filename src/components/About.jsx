@@ -1,5 +1,5 @@
 import React from "react"
-import logo from '../image/R-logo.png'
+import logo from '../image/R-logo-removebg-preview.png'
 import { IconContext } from "react-icons"
 import {FaGithubSquare,FaLinkedin,FaInstagramSquare} from "react-icons/fa"
 import {IoIosMail} from "react-icons/io"
@@ -9,7 +9,7 @@ export default function Hero(){
     return(
         <section className="hero--section">
                 <div className="hero--p">
-                    <a href="https://www.namecheap.com/domains/registration/results/?domain=rayanetayache" target="_blank"><img src={logo} alt="logo" className="main--logo" /></a>
+                    <a href="#" ><img src={logo} alt="logo" className="main--logo" /></a>
                     <p className="hero--fp">Hey, my name is <span className="name">Rayane Tayache </span>   
                      and I’m a Computer Science major at Unistra in my freshman year, planning on graduating by May 2024. 
                     I aim to deepen my understanding in various areas of technology and product development.
