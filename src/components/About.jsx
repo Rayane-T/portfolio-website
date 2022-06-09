@@ -14,7 +14,7 @@ export default function Hero(){
                      and I’m a Computer Science major at Unistra in my freshman year, planning on graduating by May 2024. 
                     I aim to deepen my understanding in various areas of technology and product development.
                     </p>
-                    <p className="hero--sp"> Aside school I love talking about Blockchain, travel around the world looking for cultural novelty and play sports
+                    <p className="hero--sp"> Aside school I love talking about Blockchain, travelling around the world looking for cultural novelty and play sports
                     - So feel free to hit me up via email or set-up some time in my schedule by clicking the calendar below!
                     </p>
                 </div>
