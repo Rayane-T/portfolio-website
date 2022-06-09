@@ -9,7 +9,7 @@ export default function Hero(){
     return(
         <section className="hero--section">
                 <div className="hero--p">
-                    <a href="#" ><img src={logo} alt="logo" className="main--logo" /></a>
+                    <a href="" ><img src={logo} alt="logo" className="main--logo" /></a>
                     <p className="hero--fp">Hey, my name is <span className="name">Rayane Tayache </span>   
                      and I’m a Computer Science major at Unistra in my freshman year, planning on graduating by May 2024. 
                     I aim to deepen my understanding in various areas of technology and product development.
