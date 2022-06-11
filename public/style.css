@@ -43,6 +43,7 @@ nav {
     padding-left: 200px;
     font-family: 'Inter', sans-serif;
     opacity: 0.8;
+    z-index: 999;
 }
 
 .nav--rightside{
@@ -99,21 +100,16 @@ nav a{
     margin: 25px;
     transition: 1s;
 }
-.social > li:hover{
-    transform: scale(1.1);
-    z-index: 2;
-}
 .hero--p{
     font-family: "Poppins",sans-serif;
     margin: 0 auto;
     width: 600px;
 
-
 }
 .main--logo{
     font-size: 50px;
     transition: 0.5s;
-    margin: 300px 225px 70px;
+    margin: 30% 37% 17%;;
 
 }
 .main--logo:hover{
@@ -184,4 +180,9 @@ nav a{
     font-weight: bold;
     padding-bottom: 15px;
 }
-
+.logo--color{
+    fill: rgb(53, 53, 53);
+}
+.logo--color:hover{
+    fill: black;
+}

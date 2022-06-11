@@ -2,7 +2,7 @@ import React from "react"
 import logo from '../image/R-logo-removebg-preview.png'
 import { IconContext } from "react-icons"
 import {FaGithubSquare,FaLinkedin,FaInstagramSquare} from "react-icons/fa"
-import {IoIosMail} from "react-icons/io"
+import {AiOutlineMail} from "react-icons/ai"
 import {GoCalendar} from "react-icons/go"
 
 export default function Hero(){
@@ -20,11 +20,11 @@ export default function Hero(){
                 </div>
                 <ul className="social">
                     <IconContext.Provider value={{ color: "black"}}>
-                    <li><a href="https://github.com" target="_blank" ><FaGithubSquare /></a></li>
-                    <li><a href="https://www.linkedin.com" target="_blank" ><FaLinkedin /></a></li>
-                    <li><a href="https://www.instagram.com" target="_blank" ><FaInstagramSquare /></a></li>
-                    <li><a href="mailto:pro.tayacherayane@gmail.com" target="_blank" ><IoIosMail /></a></li>
-                    <li><a href="https://calendly.com/" target="_blank" ><GoCalendar /></a></li>
+                    <li><a href="https://github.com" target="_blank" ><FaGithubSquare className="logo--color" /></a></li>
+                    <li><a href="https://www.linkedin.com" target="_blank" ><FaLinkedin className="logo--color"/></a></li>
+                    <li><a href="https://www.instagram.com" target="_blank" ><FaInstagramSquare className="logo--color"/></a></li>
+                    <li><a href="mailto:pro.tayacherayane@gmail.com" target="_blank" ><AiOutlineMail className="logo--color"/></a></li>
+                    <li><a href="https://calendly.com/" target="_blank" ><GoCalendar className="logo--color"/></a></li>
                     </IconContext.Provider>
                 </ul>
         </section>
