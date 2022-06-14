@@ -7,7 +7,7 @@ export default function Navbar(){
             <div className="nav--rightside">
                 <a href="">Projects</a>
                 <a href="">Work</a>
-                <a href="">Contact</a>
+                <a href="">Resume</a>
             </div>
         </nav>
     )
