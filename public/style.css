@@ -186,3 +186,41 @@ nav a{
 .logo--color:hover{
     fill: black;
 }
+nav a:hover{
+    color: rgb(99, 99, 99);
+}
+.active{
+    color: rgb(99, 99, 99);
+}
+.card--work{
+    margin: 100px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 3px;
+    display: flex;
+
+}
+.card--info{
+    background-color: rgb(155, 131, 131);
+}
+.card--work img{
+    width: 10%;
+    justify-content: left;
+    background-color: black;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.hero--work{
+    padding-top: 120px;
+    display: grid;
+    place-items: center;
+}
+.hero--work *{
+    padding-bottom: 20px;
+}
+.hero--work > h2{
+}
+.hero--work > h3{
+}
+.hero--work > h4{
+    color: #777;
+}

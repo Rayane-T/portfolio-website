@@ -1,13 +1,14 @@
 import React from "react"
+import { NavLink } from "react-router-dom"
 
 export default function Navbar(){
     return (
         <nav>
-            <a href="" className="nav--leftside">RT</a>
+            <NavLink to="/" className="nav--leftside">RT</NavLink>
             <div className="nav--rightside">
-                <a href="">Projects</a>
-                <a href="">Work</a>
-                <a href="">Resume</a>
+                <NavLink to="/Projects">Projects</NavLink>
+                <NavLink to="/Work">Work</NavLink>
+                <NavLink to="/Resume">Resume</NavLink>
             </div>
         </nav>
     )
