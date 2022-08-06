@@ -244,9 +244,6 @@ nav a:hover{
     grid-template-columns: 1125px 100px;
     grid-template-rows: 125px;
 }
-.logo-image{
-
-}
 .card--info{
     background-color: rgb(155, 131, 131);
 }
@@ -261,10 +258,6 @@ nav a:hover{
 }
 .hero--work *{
     padding-bottom: 20px;
-}
-.hero--work > h2{
-}
-.hero--work > h3{
 }
 .hero--work > h4{
     color: #777;
