@@ -230,7 +230,22 @@ nav a:hover{
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
 }
-
+.ui--button-first{
+    border: 1px solid rgba(34,36,38,.15);
+    border-top-left-radius:2px;
+    border-bottom-left-radius:2px;
+    padding:6px;
+}
+.ui--button{
+    border: 1px solid rgba(34,36,38,.15);
+    padding:6px;
+}
+.ui--button-last{
+    border: 1px solid rgba(34,36,38,.15);
+    border-top-right-radius:2px;
+    border-bottom-right-radius:2px;
+    padding:6px;
+}
 @media (min-width: 912px) {
   .cards {
     grid-template-columns: repeat(3, 1fr);

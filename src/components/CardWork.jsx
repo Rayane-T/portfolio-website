@@ -22,9 +22,9 @@ export default function CardWork() {
                             </div>
                         </div>
                         <div>
-                            <button className="ui--button">HTML/CSS</button>
+                            <button className="ui--button-first">HTML/CSS</button>
                             <button className="ui--button">JAVASCRIPT</button>
-                            <button className="ui--button">REACTJS</button>
+                            <button className="ui--button-last">REACTJS</button>
                         </div>
                     </div>
                 </div>
