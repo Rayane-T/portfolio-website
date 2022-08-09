@@ -193,10 +193,6 @@ nav a:hover{
     color: rgb(99, 99, 99);
 }
 
-.container h3 {
-  padding: 0 0 30px 30px;
-}
-
 /* Cards */
 .cards {
   padding: 0 30px 50px;
@@ -230,6 +226,9 @@ nav a:hover{
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
 }
+.hero--work div button{
+    padding: 6 237 6 230;
+}
 .ui--button-first{
     border: 1px solid rgba(34,36,38,.15);
     border-top-left-radius:2px;
@@ -246,6 +245,7 @@ nav a:hover{
     border-bottom-right-radius:2px;
     padding:6px;
 }
+
 @media (min-width: 912px) {
   .cards {
     grid-template-columns: repeat(3, 1fr);
