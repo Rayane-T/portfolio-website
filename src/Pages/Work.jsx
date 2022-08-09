@@ -15,3 +15,9 @@ export default function Work(){
         </div>
     )
 }
+/*
+                <div>
+                    <button>LinkedIn</button>
+                    <button>Resume</button>
+                </div> 
+*/

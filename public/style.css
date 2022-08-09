@@ -201,11 +201,13 @@ nav a:hover{
 .cards {
   padding: 0 30px 50px;
 }
-
+.cards .cards-inner .ndblock{
+    display: flex;
+}
 .cards .cards-inner {
-  display: flex;
-  background-color: #d1d2d3;
-  padding: 20px;
+  background-color: #ffffff;
+  padding: 15px;
+  border: 1px solid rgb(152, 144, 144);
   border-radius: 5px;
   justify-content: space-between;
 }
@@ -216,12 +218,17 @@ nav a:hover{
 }
 
 .cards .cards-inner div p {
-  margin-top: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
   line-height: 1.6;
   font-size: 14px;
 }
 .cards {
     grid-template-columns: repeat(2, 1fr);
+}
+.fontwork{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
 }
 
 @media (min-width: 912px) {
@@ -238,7 +245,6 @@ nav a:hover{
 }
 .card--work{
     margin: 100px;
-    border: 2px solid rgb(0, 0, 0);
     border-radius: 3px;
     display: grid;
     grid-template-columns: 1125px 100px;
