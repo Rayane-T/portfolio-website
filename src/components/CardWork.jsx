@@ -1,6 +1,6 @@
 import React from "react"
 import logo from '../image/R-logo-removebg-preview.png'
-
+import {SiHtml5, SiCss3, SiJavascript, SiReact} from "react-icons/si"
 export default function CardWork() {
     return (
         <section>
@@ -21,10 +21,23 @@ export default function CardWork() {
                                 <img src={logo} height="100px"/>
                             </div>
                         </div>
-                        <div>
-                            <button className="ui--button-first">HTML/CSS</button>
-                            <button className="ui--button">JAVASCRIPT</button>
-                            <button className="ui--button-last">REACTJS</button>
+                        <div className="flex">
+                            <button className="r-flex">
+                                <div className = "adjust-svg"><SiHtml5/></div>
+                                <div className = "font">Html</div>
+                            </button>
+                            <button className="o-flex">
+                                <div className = "adjust-svg"><SiCss3/></div>
+                                <div className = "font">Css</div>
+                            </button>
+                            <button className="y-flex">
+                                <div className = "adjust-svg"><SiJavascript/></div>
+                                <div className = "font">JavaScript</div>
+                            </button>
+                            <button className="b-flex">
+                                <div className = "adjust-svg"><SiReact/></div>
+                                <div className = "font">React.js</div>
+                            </button>
                         </div>
                     </div>
                 </div>

@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+
 }
 
 /* Scroll bar custom : Default*/
@@ -192,7 +193,40 @@ nav a:hover{
 .active{
     color: rgb(99, 99, 99);
 }
-
+.flex {
+    display: flex;
+    font-family:'Space Mono', monospace;
+}
+.r-flex{
+    display: flex;
+    background-color: rgb(244, 73, 73); 
+    border-radius: 2px;
+    padding: 5px;
+}
+.b-flex{
+    display: flex;
+    background-color: rgb(112, 176, 216);
+    border-radius: 2px;
+    padding: 5px;
+}
+.adjust-svg{
+    padding-top:6px;
+}
+.y-flex{
+    display: flex;
+    background-color: rgb(216, 213, 112);
+    border-radius: 2px;
+    padding: 5px;
+}
+.o-flex{
+    display: flex;
+    background-color: rgb(232, 185, 114);
+    border-radius: 2px;
+    padding: 5px;
+}
+.font{
+    font-size: small;
+}
 /* Cards */
 .cards {
   padding: 0 30px 50px;
@@ -229,22 +263,7 @@ nav a:hover{
 .hero--work div button{
     padding: 6 237 6 230;
 }
-.ui--button-first{
-    border: 1px solid rgba(34,36,38,.15);
-    border-top-left-radius:2px;
-    border-bottom-left-radius:2px;
-    padding:6px;
-}
-.ui--button{
-    border: 1px solid rgba(34,36,38,.15);
-    padding:6px;
-}
-.ui--button-last{
-    border: 1px solid rgba(34,36,38,.15);
-    border-top-right-radius:2px;
-    border-bottom-right-radius:2px;
-    padding:6px;
-}
+
 
 @media (min-width: 912px) {
   .cards {
