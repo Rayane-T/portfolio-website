@@ -2,7 +2,7 @@ import React from "react"
 
 export default function CardProjects() {
     return (
-        <div>efg</div>
+        <div className="text-red-400">efg</div>
         
     )
 }

@@ -21,24 +21,18 @@ export default function CardWork() {
                                 <img src={logo} height="100px"/>
                             </div>
                         </div>
-                        <div className="flex">
-                            <button className="r-flex">
-                                <div className = "adjust-svg"><SiHtml5/></div>
-                                <div className = "font">Html</div>
-                            </button>
-                            <button className="o-flex">
-                                <div className = "adjust-svg"><SiCss3/></div>
-                                <div className = "font">Css</div>
-                            </button>
-                            <button className="y-flex">
-                                <div className = "adjust-svg"><SiJavascript/></div>
-                                <div className = "font">JavaScript</div>
-                            </button>
-                            <button className="b-flex">
-                                <div className = "adjust-svg"><SiReact/></div>
-                                <div className = "font">React.js</div>
-                            </button>
-                        </div>
+                        <span className="css-1qm7jzg">
+                            <SiHtml5/>
+                            <span className="css-1h8gyx6">HTML</span>
+                        </span>
+                        <span className="css-1qm7jzg">
+                            <SiHtml5/>
+                            <span className="css-1h8gyx6">HTML</span>
+                        </span>
+                        <span className="css-1qm7jzg">
+                            <SiHtml5/>
+                            <span className="css-1h8gyx6">HTML</span>
+                        </span>
                     </div>
                 </div>
             </div>
