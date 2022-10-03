@@ -1,7 +1,10 @@
 import React from "react"
 import Navbar from "../components/Navbar.jsx"
 import CardWork from "../components/CardWork"
+import { TabTitle } from "../utils/genfun.js"
+
 export default function Work(){
+    TabTitle('Work | Rayane Tayache')
     return(
         <div>
             <Navbar/>

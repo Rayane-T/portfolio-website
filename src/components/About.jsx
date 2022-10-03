@@ -1,5 +1,5 @@
 import React from "react"
-import logo from '../image/R-logo-removebg-preview.png'
+import logo from '../image/Main Logo.png'
 import { IconContext } from "react-icons"
 import {FaGithubSquare,FaLinkedin,FaInstagramSquare} from "react-icons/fa"
 import {AiOutlineMail} from "react-icons/ai"
@@ -11,7 +11,7 @@ export default function Hero(){
                 <div className="hero--p">
                     <a href="" ><img src={logo} alt="logo" className="main--logo" /></a>
                     <p className="hero--fp">Hey, my name is <span className="name">Rayane Tayache </span>   
-                     and I’m a Computer Science major at Unistra in my freshman year, planning on graduating by May 2024. 
+                     and I’m a Computer Science major at Unistra in my sophomore year, planning on graduating by May 2024. 
                     I aim to deepen my understanding in various areas of technology and product development.
                     </p>
                     <p className="hero--sp"> Aside school I love talking about Blockchain, travelling around the world looking for cultural novelty and play sports
