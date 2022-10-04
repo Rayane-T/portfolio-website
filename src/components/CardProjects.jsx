@@ -15,7 +15,7 @@ export default function CardProjects() {
             </div>
         <div>
             <div className="a-btn-gh">
-                <a href="https://github.com/Rayane-T" ><button className="btn-gh">GitHub</button></a>
+                <a href="https://github.com/Rayane-T" target="_blank"><button className="btn-gh">GitHub</button></a>
             </div>
             <div className="contain-wrapper">
                 <a href="https://github.com/Rayane-T/Track">
@@ -25,7 +25,10 @@ export default function CardProjects() {
                         <div className="info">
                             <h1>Track</h1>
                             <p>Track is an expense tracker that enables collaboration between people when budgeting. Different peoples in a group are able to plan their expenses, and the data is automatically compiled together.</p>
-                            <a href="" className="btn">ReadMore</a>
+                            <a href="https://github.com/Rayane-T/Track" className="btn">ReactJS</a>
+                            <a href="https://github.com/Rayane-T/Track" className="btn">TailWindCSS</a>
+                            <a href="https://github.com/Rayane-T/Track" className="btn">MongoDB</a>
+                            <a href="https://github.com/Rayane-T/Track" className="btn">NodeJS</a>
                         </div>
                     </div>
                 </div>
@@ -37,7 +40,10 @@ export default function CardProjects() {
                         <div className="info">
                             <h1>Educative Recycling App</h1>
                             <p>Rid Of ♻️ — an educational application aimed at simplifying the process of recycling trash in your daily life.</p>
-                            <a href="" className="btn">ReadMore</a>
+                            <a href="https://github.com/Rayane-T/Track" className="btn">ReactJS</a>
+                            <a href="https://github.com/Rayane-T/Track" className="btn">Flask</a>
+                            <a href="https://github.com/Rayane-T/Track" className="btn">MySql</a>
+                            <a href="https://github.com/Rayane-T/Track" className="btn">ProtoBuf</a>
                         </div>
                     </div>
                 </div>
@@ -49,7 +55,8 @@ export default function CardProjects() {
                         <div className="info">
                             <h1>Sky-Scrapper Solver</h1>
                             <p>🌆 Algorithm capable of solving the sky-scrapper game using backtracking.</p>
-                            <a href="" className="btn">ReadMore</a>
+                            <a href="https://github.com/Rayane-T/Track" className="btn">C</a>
+                            <a href="https://github.com/Rayane-T/Track" className="btn">MakeFile</a>
                         </div>
                     </div>
                 </div>
