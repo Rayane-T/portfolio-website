@@ -7,11 +7,11 @@ import { TabTitle } from "../utils/genfun.js"
 export default function Home(){
   TabTitle('Home | Rayane Tayache');
     return(
-    <div>
-      <Navbar/>
-      <About/>
-      <Contact/>
-    </div>
+      <div>
+        <Navbar/>
+        <About/>
+        <Contact/>
+      </div>
   )
 }
 
