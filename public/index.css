@@ -126,12 +126,15 @@
     margin-bottom: 20px;
 }
 
+
 .card .info .btn{
     text-decoration: none;
     padding: 0.5rem 1rem;
     background: #ffffff;
+    border-radius: 2px;
+    margin: 2px;
     color: #000;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: bold;
     cursor: pointer;
     transition: 0.4s ease-in-out;

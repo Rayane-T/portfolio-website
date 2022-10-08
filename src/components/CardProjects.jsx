@@ -3,6 +3,9 @@ import Track from "../image/Track.png"
 import Ridof from "../image/Ridof.png"
 import Contact from "./Contact"
 import skyscrapper  from "../image/skyscrapper.jpg"
+import Labyrinth from "../image/laby.png"
+import Portfolio from "../image/Capture123.PNG"
+
 import { AiFillGithub } from "react-icons/ai"
 
 export default function CardProjects() {
@@ -51,43 +54,50 @@ export default function CardProjects() {
                 <a href="https://github.com/Rayane-T/Sky-scrapper-Solver">
                 <div className="wrapper">
                     <div className="card">
+                        <img src={Portfolio} alt="Track logo" />
+                        <div className="info">
+                            <h1>Portfolio</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus laboriosam provident corrupti incidunt. Velit nihil a modi, deleniti temporibus, aliquid illum consectetur et assumenda expedita tempore sed eum est dolore!</p>
+                            <a href="" className="btn">ReactJS</a>
+                            <a href="" className="btn">TailwindCSS</a>
+                        </div>
+                    </div>
+                </div>
+                </a>
+                <a href="https://github.com/Rayane-T/Sky-scrapper-Solver">
+                <div className="wrapper">
+                        <div className="card">
+                            <img src={skyscrapper} alt="Track logo" />
+                            <div className="info">
+                                <h1>Integer Interpreter</h1>
+                                <p>Algorithm capable of taking the numerical form of an integer and returning his alphabetical form in the Terminal extracting information from a dictionary.</p>
+                                <a href="" className="btn">C</a>
+                                <a href="" className="btn">MakeFile</a>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://github.com/Rayane-T/Sky-scrapper-Solver">
+                <div className="wrapper">
+                    <div className="card">
                         <img src={skyscrapper} alt="Track logo" />
                         <div className="info">
                             <h1>Sky-Scrapper Solver</h1>
                             <p>🌆 Algorithm capable of solving the sky-scrapper game using backtracking.</p>
-                            <a href="https://github.com/Rayane-T/Track" className="btn">C</a>
-                            <a href="https://github.com/Rayane-T/Track" className="btn">MakeFile</a>
+                            <a href="https://github.com/Rayane-T/Track" target={"_blank"} className="btn">C</a>
                         </div>
                     </div>
                 </div>
                 </a>
                     <div className="wrapper">
-                        <div className="card">
-                            <img src={skyscrapper} alt="Track logo" />
-                            <div className="info">
-                                <h1>Heading</h1>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus laboriosam provident corrupti incidunt. Velit nihil a modi, deleniti temporibus, aliquid illum consectetur et assumenda expedita tempore sed eum est dolore!</p>
-                                <a href="" className="btn">ReadMore</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="wrapper">
                     <div className="card">
-                        <img src={Ridof} alt="Track logo" />
+                        <img src={Labyrinth} alt="Track logo" />
                         <div className="info">
-                            <h1>Heading</h1>
+                            <h1>A* Path Finding Algorithm</h1>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus laboriosam provident corrupti incidunt. Velit nihil a modi, deleniti temporibus, aliquid illum consectetur et assumenda expedita tempore sed eum est dolore!</p>
-                            <a href="" className="btn">ReadMore</a>
-                        </div>
-                    </div>
-                </div>
-                <div className="wrapper">
-                    <div className="card">
-                        <img src={Ridof} alt="Track logo" />
-                        <div className="info">
-                            <h1>Heading</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus laboriosam provident corrupti incidunt. Velit nihil a modi, deleniti temporibus, aliquid illum consectetur et assumenda expedita tempore sed eum est dolore!</p>
-                            <a href="" className="btn">ReadMore</a>
+                            <a href="" className="btn">Python</a>
+                            <a href="" className="btn">Numpy</a>
+                            <a href="" className="btn">MatPlotlib</a>
                         </div>
                     </div>
                 </div>
