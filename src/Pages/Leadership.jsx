@@ -4,7 +4,7 @@ import CardLeadership from "../components/cardLeadership"
 import { TabTitle } from "../utils/genfun.js"
 
 export default function Leadership(){
-    TabTitle('Work | Rayane Tayache')
+    TabTitle('Leadership | Rayane Tayache')
     return(
         <div>
             <Navbar/>

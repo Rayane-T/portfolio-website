@@ -2,6 +2,7 @@ import React from "react"
 import Navbar from "../components/Navbar.jsx"
 import CardWork from "../components/cardWork"
 import { TabTitle } from "../utils/genfun.js"
+import Contact from "../components/Contact.jsx"
 
 export default function Work(){
     TabTitle('Work | Rayane Tayache')
@@ -14,6 +15,7 @@ export default function Work(){
                 <p className="p2">- Each section outlines the company, the role, my tenure and a brief description of what my job entailed</p>
             </div>
             <CardWork/>
+            <Contact/>
         </div>
     )
 }

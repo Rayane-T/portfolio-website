@@ -269,6 +269,7 @@ nav a{
     margin: 30% 37% 17%;;
 
 }
+
 .main--logo:hover{
     transform: scale(1.1);
     z-index: 2;
@@ -280,12 +281,14 @@ nav a{
 .hero--sp{
     max-width: 700px;
 }
+
 .card-work{
     margin-top: 150px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .project--btitle{
     padding-top: 300px;
     padding-left: 80px;
@@ -293,19 +296,23 @@ nav a{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 90;
 }
+
 .project--img{
     width: 300px;
     border-radius: 5px;
 }
+
 .project--section{
     padding: 40px;
 }
+
 .mention{
     display: flex;
     justify-content: center;
     padding-bottom: 30px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
+
 .contact--footbar{
     display: flex;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -383,7 +390,9 @@ nav a:hover{
 .font{
     font-size: small;
 }
+
 /* Cards */
+
 .cards {
     margin: auto;
     width: 65%;
@@ -439,8 +448,8 @@ nav a:hover{
     color: rgb(85, 123, 227);
     overflow: hidden;
     text-overflow: none
-
 }
+
 .css-1h8gyx6{
     line-height: 1.2;
     overflow: hidden;

@@ -6,7 +6,7 @@ import skyscrapper  from "../image/sky.PNG"
 import Labyrinth from "../image/laby.png"
 import Portfolio from "../image/Capture123.PNG"
 import Interpreter from "../image/interpreter.jpg"
-
+import { GoMarkGithub } from "react-icons/go"
 export default function CardProjects() {
     return (
         <div>
@@ -17,7 +17,7 @@ export default function CardProjects() {
             </div>
         <div>
             <div className="a-btn-gh">
-                <a href="https://github.com/Rayane-T" target="_blank"><button className="btn-gh">GitHub</button></a>
+                <a href="https://github.com/Rayane-T" target="_blank"><button className="btn-gh"><GoMarkGithub/>GitHub</button></a>
             </div>
             <div className="contain-wrapper">
                 <a href="https://github.com/Rayane-T/Track">
@@ -26,7 +26,7 @@ export default function CardProjects() {
                      <img src={Track}/> {/* "https://d112y698adiu2z.cloudfront.net/photos/production/software_thumbnail_photos/002/195/143/datas/medium.gif" */}
                         <div className="info">
                             <h1>Track</h1>
-                            <p>Track is an expense tracker that enables collaboration between people when budgeting. Different peoples in a group are able to plan their expenses, and the data is automatically compiled together.</p>
+                            <p>Track is a fullstack expense tracker application that enables collaboration between people when budgeting. Different peoples in a group are able to plan their expenses, and the data is automatically compiled together.</p>
                             <a href="https://github.com/Rayane-T/Track" className="btn">ReactJS</a>
                             <a href="https://github.com/Rayane-T/Track" className="btn">TailWindCSS</a>
                             <a href="https://github.com/Rayane-T/Track" className="btn">MongoDB</a>
@@ -41,7 +41,7 @@ export default function CardProjects() {
                         <img src={Ridof} alt="Track logo" />
                         <div className="info">
                             <h1>Educative Recycling App</h1>
-                            <p>Rid Of ♻️ — an educational application aimed at simplifying the process of recycling trash in your daily life.</p>
+                            <p>Rid Of is a fullstack educationnal application aimed at simplifying the process of recycling trash in your daily life.</p>
                             <a href="https://github.com/Rayane-T/Track" className="btn">ReactJS</a>
                             <a href="https://github.com/Rayane-T/Track" className="btn">Flask</a>
                             <a href="https://github.com/Rayane-T/Track" className="btn">MySql</a>
@@ -56,7 +56,7 @@ export default function CardProjects() {
                         <img src={Portfolio} alt="Track logo" />
                         <div className="info">
                             <h1>Portfolio</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus laboriosam provident corrupti incidunt. Velit nihil a modi, deleniti temporibus, aliquid illum consectetur et assumenda expedita tempore sed eum est dolore!</p>
+                            <p>This website</p>
                             <a href="" className="btn">ReactJS</a>
                             <a href="" className="btn">TailwindCSS</a>
                         </div>
@@ -93,7 +93,7 @@ export default function CardProjects() {
                         <img src={Labyrinth} alt="Track logo" />
                         <div className="info">
                             <h1>A* Path Finding Algorithm</h1>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus laboriosam provident corrupti incidunt. Velit nihil a modi, deleniti temporibus, aliquid illum consectetur et assumenda expedita tempore sed eum est dolore!</p>
+                            <p>Interface for the A* Path Finding Algorithm</p>
                             <a href="" className="btn">Python</a>
                             <a href="" className="btn">Numpy</a>
                             <a href="" className="btn">MatPlotlib</a>
