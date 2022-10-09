@@ -12,6 +12,24 @@
 .resume--container{
     margin-top: 100px;
 }
+
+.a-btn-gh-b{
+    margin: auto;
+    margin-bottom: 40px;
+}
+.btn-gh-b{
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto;
+    border: none;
+    width: 50%;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(0, 0, 0);
+}
+.btn-gh-b:hover{
+    background-color: rgb(60, 60, 60);
+}
 .a-btn-gh{
     margin: auto;
     margin-top: 80px;
@@ -367,14 +385,15 @@ nav a:hover{
 }
 /* Cards */
 .cards {
-  padding: 0 30px 50px;
+    margin: auto;
+    width: 65%;
 }
 .cards .cards-inner .ndblock{
     display: flex;
 }
 .cards .cards-inner {
   background-color: #ffffff;
-  padding: 15px;
+  padding: 20px;
   border: 1px solid rgb(152, 144, 144);
   border-radius: 5px;
   justify-content: space-between;
@@ -399,7 +418,7 @@ nav a:hover{
     font-weight: 500;
 }
 .hero--work div button{
-    padding: 6 237 6 230;
+    padding: 10 237 10 237;
 }
 .css-1qm7jzg{
     display: inline-flex;
@@ -417,7 +436,7 @@ nav a:hover{
     padding-inline-end: 6px;
     border-radius: 3px;
     background: rgba(254, 178, 178, 0.16);
-    color: rgb(228, 103, 103);
+    color: rgb(85, 123, 227);
     overflow: hidden;
     text-overflow: none
 
@@ -434,12 +453,6 @@ nav a:hover{
   }
 }
 
-@media (min-width: 1200px) {
-  .container {
-    max-width: 1100px;
-    margin: auto;
-  }
-}
 .card--work{
     margin: 100px;
     border-radius: 3px;

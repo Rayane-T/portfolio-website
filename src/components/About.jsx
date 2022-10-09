@@ -14,6 +14,10 @@ export default function Hero(){
                      and I’m a Computer Science major at Unistra in my sophomore year, planning on graduating by May 2024. 
                     I aim to deepen my understanding in various areas of technology and product development.
                     </p>
+                    <p className="hero--fp"> Throughout this year, I interned at 42 Berlin for the Summer. 
+                    I'm open to chat about internship and full-time opportunities for 2023.
+                    </p>
+
                     <p className="hero--sp"> Aside school I love talking about Blockchain, travelling around the world looking for cultural novelty and play sports
                     - So feel free to hit me up via email or set-up some time in my schedule by clicking the calendar below!
                     </p>

@@ -8,7 +8,7 @@ export default function Navbar(){
             <div className="nav--rightside">
                 <NavLink to="/Projects">Projects</NavLink>
                 <NavLink to="/Work">Work</NavLink>
-                <NavLink to="/Resume">Resume</NavLink>
+                <NavLink to="/Leadership">Leadership</NavLink>
             </div>
         </nav>
     )

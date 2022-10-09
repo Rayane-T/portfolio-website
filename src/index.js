@@ -4,7 +4,7 @@ import Home from "./Pages/Home"
 import Projects from "./Pages/Projects"
 import Work from "./Pages/Work"
 import Resume from "./Pages/Resume"
-import Test from "./Pages/Test"
+import Leadership from "./Pages/Leadership"
 import {BrowserRouter as Router, Routes, Route, Navigate} from "react-router-dom"
 
 ReactDOM.render(
@@ -14,7 +14,7 @@ ReactDOM.render(
         <Route path="/Projects" element={<Projects />} />
         <Route path="/Work" element={<Work />} />
         <Route path="/Resume" element={<Resume />}/>
-        <Route path="/Test" element={<Test />} />
+        <Route path="/Leadership" element={<Leadership />} />
         <Route path="*" element={<Navigate to="/" />}/>
     </Routes>
 </Router>, document.getElementById("root"))

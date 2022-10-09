@@ -6,9 +6,10 @@ import React from "react"
              <div className="contact--footbar">
                     <div className="footer-item_l" >
                         <div className="footer-title">Projects</div>
-                        <a href="https://github.com/Rayane-T/labyrinth-project" target="_blank">Labyrinth</a>
-                        <a href="https://github.com/Rayane-T/puzzleG" target="_blank">Puzzle Game</a>
-                        <a href="https://github.com/Rayane-T/Taza-Info" target="_blank">Taza Info</a>
+                        <a href="https://github.com/Rayane-T/labyrinth-project" target="_blank">Track</a>
+                        <a href="https://github.com/Rayane-T/puzzleG" target="_blank">Rid Of</a>
+                        <a href="https://github.com/Rayane-T/Taza-Info" target="_blank">I Interpreter</a>
+                        <a href="https://github.com/Rayane-T/portfolio-website" target="_blank">Sky-scrapper</a>
                         <a href="https://github.com/Rayane-T/portfolio-website" target="_blank">Portfolio</a>
                     </div>
                     <div className="footer-item_r" >

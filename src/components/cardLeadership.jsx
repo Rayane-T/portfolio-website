@@ -1,8 +1,8 @@
 import React from "react"
 import logo from '../image/R-logo-removebg-preview.png'
 import { NavLink } from "react-router-dom"
-import {TbMathFunction} from "react-icons/tb"
-export default function CardWork() {
+import {SiHtml5, SiCss3, SiJavascript, SiReact} from "react-icons/si"
+export default function CardLeadership() {
     return (
         <section>
             <div className="container">
@@ -14,11 +14,12 @@ export default function CardWork() {
                     <div className="cards-inner">
                         <div className= "ndblock">
                             <div>
-                                <h5 className="fontwork">Math Society of Marie Curie High School</h5>
-                                <h6 className="fontwork">Mathematics Tutor</h6>
-                                <h6 className="fontwork">Nov. 2020 - Feb. 2021</h6>
+                                <h5 className="fontwork">Company</h5>
+                                <h6 className="fontwork">Position</h6>
+                                <h6 className="fontwork">Month year - Month Year</h6>
                                 <p>
-                                Taught/Helped a group of 8 students in Statistics/Probability/Mathematical series/Scalar product, at High School Of Marie Curie.                                
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Praesentium, temporibus.Lorem ipsum dolor sit amet consectetur adipisicing elit.Praesentium, temporibus.Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                 </p>
                             </div>
                             <div>
@@ -26,8 +27,20 @@ export default function CardWork() {
                             </div>
                         </div>
                         <span className="css-1qm7jzg">
-                            <TbMathFunction/>
-                            <span className="css-1h8gyx6">Mathematics</span>
+                            <SiHtml5/>
+                            <span className="css-1h8gyx6">HTML</span>
+                        </span>
+                        <span className="css-1qm7jzg">
+                            <SiCss3/>
+                            <span className="css-1h8gyx6">CSS</span>
+                        </span>
+                        <span className="css-1qm7jzg">
+                            <SiJavascript/>
+                            <span className="css-1h8gyx6">Javascript</span>
+                        </span>
+                        <span className="css-1qm7jzg">
+                            <SiReact/>
+                            <span className="css-1h8gyx6">React</span>
                         </span>
                     </div>
                 </div>

@@ -2,11 +2,10 @@ import React from "react"
 import Track from "../image/Track.png"
 import Ridof from "../image/Ridof.png"
 import Contact from "./Contact"
-import skyscrapper  from "../image/skyscrapper.jpg"
+import skyscrapper  from "../image/sky.PNG"
 import Labyrinth from "../image/laby.png"
 import Portfolio from "../image/Capture123.PNG"
-
-import { AiFillGithub } from "react-icons/ai"
+import Interpreter from "../image/interpreter.jpg"
 
 export default function CardProjects() {
     return (
@@ -67,7 +66,7 @@ export default function CardProjects() {
                 <a href="https://github.com/Rayane-T/Sky-scrapper-Solver">
                 <div className="wrapper">
                         <div className="card">
-                            <img src={skyscrapper} alt="Track logo" />
+                            <img src={Interpreter} alt="Track logo" />
                             <div className="info">
                                 <h1>Integer Interpreter</h1>
                                 <p>Algorithm capable of taking the numerical form of an integer and returning his alphabetical form in the Terminal extracting information from a dictionary.</p>
@@ -83,7 +82,7 @@ export default function CardProjects() {
                         <img src={skyscrapper} alt="Track logo" />
                         <div className="info">
                             <h1>Sky-Scrapper Solver</h1>
-                            <p>🌆 Algorithm capable of solving the sky-scrapper game using backtracking.</p>
+                            <p>Algorithm capable of solving the sky-scrapper game using backtracking.</p>
                             <a href="https://github.com/Rayane-T/Track" target={"_blank"} className="btn">C</a>
                         </div>
                     </div>
