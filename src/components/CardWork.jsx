@@ -9,8 +9,8 @@ export default function CardWork() {
             <div className="container">
                 <div className="cards">
                 <div className="a-btn-gh-b">
-                    <a href="https://github.com/Rayane-T" target="_blank"><button className="btn-gh-b"><AiFillLinkedin/>LinkedIn</button></a>
-                    <NavLink to="/Resume"><button className="btn-gh-b"><AiOutlineFile/>Resume</button></NavLink>
+                    <a href="https://github.com/Rayane-T" target="_blank"><button className="btn-gh-b"><AiFillLinkedin size="11px"/>LinkedIn</button></a>
+                    <NavLink to="/Resume"><button className="btn-gh-b"><AiOutlineFile size="11px"/>Resume</button></NavLink>
                 </div>
                     <div className="cards-inner">
                         <div className= "ndblock">
@@ -27,7 +27,7 @@ export default function CardWork() {
                             </div>
                         </div>
                         <span className="css-1qm7jzg">
-                            <TbMathFunction/>
+                            <TbMathFunction size="2em"/>
                             <span className="css-1h8gyx6">Mathematics</span>
                         </span>
                     </div>

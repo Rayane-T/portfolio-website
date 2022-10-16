@@ -7,6 +7,7 @@ import Resume from "./Pages/Resume"
 import Leadership from "./Pages/Leadership"
 import {BrowserRouter as Router, Routes, Route, Navigate} from "react-router-dom"
 
+
 ReactDOM.render(
 <Router>
     <Routes>

@@ -1,13 +1,11 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     text-decoration: none;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 .resume--container{
     margin-top: 100px;
@@ -19,7 +17,7 @@
 }
 .btn-gh-b{
     padding: 10px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin: auto;
     border: none;
     width: 50%;
@@ -53,7 +51,7 @@
     text-align: center;
     align-items: center;
     justify-content: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 .contain-wrapper{
     height: 100%;
@@ -195,9 +193,8 @@ nav {
     justify-content: space-between;
     background-color: #ffffff;
     align-items: center;
-    padding: 50px;
-    padding-left: 200px;
-    font-family: 'Inter', sans-serif;
+    padding: 40px 5%;
+    font-family: 'Montserrat', sans-serif;
     opacity: 0.8;
     z-index: 999;
 }
@@ -205,22 +202,16 @@ nav {
 .nav--rightside{
     display: flex;
     justify-content: space-between;
-    margin-right: 100px;
 }
 
 .nav--leftside{
     font-weight: bold;
 }
 
-.nav--rightside > a {
-    margin-left: 90px;
-    margin-right: 10px
-}
-
 nav a{
     color: rgb(0, 0, 0);
     text-decoration: none;
-
+    padding: 9px 25px;
 }
 /* About */
 
@@ -257,7 +248,7 @@ nav a{
     transition: 1s;
 }
 .hero--p{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin: 0 auto;
     width: 600px;
 
@@ -293,7 +284,7 @@ nav a{
     padding-top: 300px;
     padding-left: 80px;
     font-weight: bold;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 90;
 }
 
@@ -310,12 +301,12 @@ nav a{
     display: flex;
     justify-content: center;
     padding-bottom: 30px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    font-family: 'Montserrat', sans-serif;
 }
 
 .contact--footbar{
     display: flex;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     justify-content: space-between;
     padding-top: 300px;
     padding-left: 300px;
@@ -330,7 +321,7 @@ nav a{
     text-decoration: none;
     margin-bottom: 10px;
     color: rgb(0, 0, 0);
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Montserrat', sans-serif;
 }
 .footer-item_r > a{
     display: flex;
@@ -338,7 +329,7 @@ nav a{
     text-decoration: none;
     margin-bottom: 10px;
     color: rgb(0, 0, 0);
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Montserrat', sans-serif;
 }
 .footer-title{
     font-weight: bold;
@@ -358,7 +349,7 @@ nav a:hover{
 }
 .flex {
     display: flex;
-    font-family:'Space Mono', monospace;
+    font-family: 'Montserrat', sans-serif;
 }
 .r-flex{
     display: flex;
@@ -423,7 +414,7 @@ nav a:hover{
     grid-template-columns: repeat(2, 1fr);
 }
 .fontwork{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 500;
 }
 .hero--work div button{
@@ -480,8 +471,7 @@ nav a:hover{
     padding-top: 120px;
     display: grid;
     place-items: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
+    font-family: 'Montserrat', sans-serif;
 }
 .hero--work *{
     padding-bottom: 20px;

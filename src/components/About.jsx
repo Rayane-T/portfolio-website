@@ -1,5 +1,5 @@
 import React from "react"
-import logo from '../image/Main Logo.png'
+import logo from '../image/Main Logo2.png'
 import { IconContext } from "react-icons"
 import {FaGithubSquare,FaLinkedin,FaInstagramSquare} from "react-icons/fa"
 import {AiOutlineMail} from "react-icons/ai"
@@ -24,11 +24,11 @@ export default function Hero(){
                 </div>
                 <ul className="social">
                     <IconContext.Provider value={{ color: "black"}}>
-                    <li><a href="https://github.com" target="_blank" ><FaGithubSquare className="logo--color" /></a></li>
-                    <li><a href="https://www.linkedin.com" target="_blank" ><FaLinkedin className="logo--color"/></a></li>
-                    <li><a href="https://www.instagram.com" target="_blank" ><FaInstagramSquare className="logo--color"/></a></li>
-                    <li><a href="mailto:pro.tayacherayane@gmail.com" target="_blank" ><AiOutlineMail className="logo--color"/></a></li>
-                    <li><a href="https://calendly.com/" target="_blank" ><GoCalendar className="logo--color"/></a></li>
+                    <li><a href="https://github.com/Rayane-T" target="_blank" ><FaGithubSquare className="logo--color" /></a></li>
+                    <li><a href="https://www.linkedin.com/in/rayanetayache/" target="_blank" ><FaLinkedin className="logo--color"/></a></li>
+                    <li><a href="https://www.instagram.com/ryntyc/" target="_blank" ><FaInstagramSquare className="logo--color"/></a></li>
+                    <li><a href="mailto:rayane.tayache@etu.unistra.fr" target="_blank" ><AiOutlineMail className="logo--color"/></a></li>
+                    <li><a href="https://calendly.com/rayane-tayache/30min" target="_blank" ><GoCalendar className="logo--color"/></a></li>
                     </IconContext.Provider>
                 </ul>
         </section>

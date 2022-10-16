@@ -4,7 +4,7 @@ import Ridof from "../image/Ridof.png"
 import Contact from "./Contact"
 import skyscrapper  from "../image/sky.PNG"
 import Labyrinth from "../image/laby.png"
-import Portfolio from "../image/Capture123.PNG"
+import Portfolio from "../image/Main Logo2.png"
 import Interpreter from "../image/interpreter.jpg"
 import { GoMarkGithub } from "react-icons/go"
 export default function CardProjects() {
@@ -17,16 +17,16 @@ export default function CardProjects() {
             </div>
         <div>
             <div className="a-btn-gh">
-                <a href="https://github.com/Rayane-T" target="_blank"><button className="btn-gh"><GoMarkGithub/>GitHub</button></a>
+                <a href="https://github.com/Rayane-T" target="_blank"><button className="btn-gh"><GoMarkGithub size="11px"/>GitHub</button></a>
             </div>
             <div className="contain-wrapper">
-                <a href="https://github.com/Rayane-T/Track">
+                <a href="https://github.com/Rayane-T/Track" target={"_blank"}>
                 <div className="wrapper">
                     <div className="card">
                      <img src={Track}/> {/* "https://d112y698adiu2z.cloudfront.net/photos/production/software_thumbnail_photos/002/195/143/datas/medium.gif" */}
                         <div className="info">
                             <h1>Track</h1>
-                            <p>Track is a fullstack expense tracker application that enables collaboration between people when budgeting. Different peoples in a group are able to plan their expenses, and the data is automatically compiled together.</p>
+                            <p>Track is a fullstack expense tracker application that enables collaboration between people when budgeting.</p>
                             <a href="https://github.com/Rayane-T/Track" className="btn">ReactJS</a>
                             <a href="https://github.com/Rayane-T/Track" className="btn">TailWindCSS</a>
                             <a href="https://github.com/Rayane-T/Track" className="btn">MongoDB</a>
@@ -35,71 +35,73 @@ export default function CardProjects() {
                     </div>
                 </div>
                 </a>
-                <a href="https://github.com/Rayane-T/RidOf_UI">
+                <a href="https://github.com/Rayane-T/RidOf_UI" target={"_blank"}>
                 <div className="wrapper">
                     <div className="card">
                         <img src={Ridof} alt="Track logo" />
                         <div className="info">
-                            <h1>Educative Recycling App</h1>
+                            <h1>RidOf</h1>
                             <p>Rid Of is a fullstack educationnal application aimed at simplifying the process of recycling trash in your daily life.</p>
-                            <a href="https://github.com/Rayane-T/Track" className="btn">ReactJS</a>
-                            <a href="https://github.com/Rayane-T/Track" className="btn">Flask</a>
-                            <a href="https://github.com/Rayane-T/Track" className="btn">MySql</a>
-                            <a href="https://github.com/Rayane-T/Track" className="btn">ProtoBuf</a>
+                            <a href="https://github.com/Rayane-T/RidOf_UI" target={"_blank"} className="btn">ReactJS</a>
+                            <a href="https://github.com/Rayane-T/RidOf_UI" target={"_blank"} className="btn">Flask</a>
+                            <a href="https://github.com/Rayane-T/RidOf_UI" target={"_blank"} className="btn">MySql</a>
+                            <a href="https://github.com/Rayane-T/RidOf_UI" target={"_blank"} className="btn">ProtoBuf</a>
                         </div>
                     </div>
                 </div>
                 </a>
-                <a href="https://github.com/Rayane-T/Sky-scrapper-Solver">
+                <a href="https://github.com/Rayane-T/portfolio-website" target={"_blank"}>
                 <div className="wrapper">
                     <div className="card">
                         <img src={Portfolio} alt="Track logo" />
                         <div className="info">
                             <h1>Portfolio</h1>
                             <p>This website</p>
-                            <a href="" className="btn">ReactJS</a>
-                            <a href="" className="btn">TailwindCSS</a>
+                            <a href="https://github.com/Rayane-T/portfolio-website" className="btn">ReactJS</a>
+                            <a href="https://github.com/Rayane-T/portfolio-website" className="btn">TailwindCSS</a>
                         </div>
                     </div>
                 </div>
                 </a>
-                <a href="https://github.com/Rayane-T/Sky-scrapper-Solver">
+                <a href="https://github.com/Rayane-T/Integer-Interpreter" target={"_blank"}>
                 <div className="wrapper">
                         <div className="card">
                             <img src={Interpreter} alt="Track logo" />
                             <div className="info">
                                 <h1>Integer Interpreter</h1>
                                 <p>Algorithm capable of taking the numerical form of an integer and returning his alphabetical form in the Terminal extracting information from a dictionary.</p>
-                                <a href="" className="btn">C</a>
-                                <a href="" className="btn">MakeFile</a>
+                                <a href="https://github.com/Rayane-T/Integer-Interpreter" className="btn">C</a>
+                                <a href="https://github.com/Rayane-T/Integer-Interpreter" className="btn">MakeFile</a>
                             </div>
                         </div>
                     </div>
                 </a>
-                <a href="https://github.com/Rayane-T/Sky-scrapper-Solver">
+                <a href="https://github.com/Rayane-T/Sky-scrapper-Solver" target={"_blank"}>
                 <div className="wrapper">
                     <div className="card">
                         <img src={skyscrapper} alt="Track logo" />
                         <div className="info">
                             <h1>Sky-Scrapper Solver</h1>
                             <p>Algorithm capable of solving the sky-scrapper game using backtracking.</p>
-                            <a href="https://github.com/Rayane-T/Track" target={"_blank"} className="btn">C</a>
+                            <a href="https://github.com/Rayane-T/Sky-scrapper-Solver" target={"_blank"} className="btn">C</a>
                         </div>
                     </div>
                 </div>
                 </a>
+                <a href="https://github.com/Rayane-T" target={"_blank"}>
                     <div className="wrapper">
                     <div className="card">
                         <img src={Labyrinth} alt="Track logo" />
                         <div className="info">
                             <h1>A* Path Finding Algorithm</h1>
                             <p>Interface for the A* Path Finding Algorithm</p>
-                            <a href="" className="btn">Python</a>
-                            <a href="" className="btn">Numpy</a>
-                            <a href="" className="btn">MatPlotlib</a>
+                            <a href="https://github.com/Rayane-T" className="btn">Python</a>
+                            <a href="https://github.com/Rayane-T" className="btn">Numpy</a>
+                            <a href="https://github.com/Rayane-T" className="btn">MatPlotlib</a>
                         </div>
                     </div>
                 </div>
+                </a>
             </div>
         </div>
         <Contact/>

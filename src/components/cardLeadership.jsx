@@ -14,8 +14,8 @@ export default function CardLeadership() {
             <div className="container">
                 <div className="cards">
                 <div className="a-btn-gh-b">
-                    <a href="https://github.com/Rayane-T" target="_blank"><button className="btn-gh-b"><AiFillLinkedin/>LinkedIn</button></a>
-                    <NavLink to="/Resume"><button className="btn-gh-b"><AiOutlineFile/>Resume</button></NavLink>
+                    <a href="https://github.com/Rayane-T" target="_blank"><button className="btn-gh-b"><AiFillLinkedin size="11px"/>LinkedIn</button></a>
+                    <NavLink to="/Resume"><button className="btn-gh-b"><AiOutlineFile size="11px"/>Resume</button></NavLink>
                 </div>
                     <div className="cards-inner">
                         <div className= "ndblock">
@@ -64,15 +64,15 @@ export default function CardLeadership() {
                             </div>
                         </div>
                         <span className="css-1qm7jzg">
-                            <img src={C} alt="c logo" height="22px" />
-                            <span className="css-1h8gyx6">C</span>
+                            <img src={C} alt="c logo" height="30px" />
+                            <span className="css-1h8gyx6">C (Programming Language)</span>
                         </span>
                         <span className="css-1qm7jzg">
-                            <VscTerminalBash/>
+                            <VscTerminalBash size="2em"/>
                             <span className="css-1h8gyx6">BASH</span>
                         </span>
                         <span className="css-1qm7jzg">
-                            <FaLinux/>
+                            <FaLinux size="2em"/>
                             <span className="css-1h8gyx6">LINUX</span>
                         </span>
                     </div>
