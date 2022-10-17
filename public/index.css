@@ -7,6 +7,21 @@
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
 }
+:root{
+    --primary-color: #ffffff;
+    --secondary-color: #212121;
+}
+
+.dark-theme{
+    --primary-color: #000000;
+    --secondary-color: #ffffff;
+}
+body{
+    background-color: var(--primary-color);
+}
+#dlicon{
+    cursor: pointer;
+}
 .resume--container{
     margin-top: 100px;
 }
@@ -21,9 +36,9 @@
     margin: auto;
     border: none;
     width: 50%;
-    color: white;
+    color: var(--primary-color);
     font-weight: bold;
-    background-color: rgb(0, 0, 0);
+    background-color: var(--secondary-color);
 }
 .btn-gh-b:hover{
     background-color: rgb(60, 60, 60);
@@ -38,7 +53,7 @@
     width: 100%; 
     padding: 10px;
     border: none;
-    color: white;
+    color: var(--primary-color);
     font-weight: bold;
     background-color: rgb(35, 33, 33);
 }
@@ -52,6 +67,7 @@
     align-items: center;
     justify-content: center;
     font-family: 'Montserrat', sans-serif;
+    color: var(--secondary-color);
 }
 .contain-wrapper{
     height: 100%;
@@ -62,6 +78,7 @@
     align-items: center;
     display: flex;
     flex-wrap: wrap;
+    color: var(--secondary-color);
 }
 .title{
     font-size: xx-large;
@@ -73,7 +90,7 @@
 .p2{
     font-weight:500;
     font-size: small;
-    color: #777;
+    color: var(--secondary-color);
 }
 
 .wrapper{
@@ -92,8 +109,9 @@
     position: relative;
     display: flex;
     align-items: flex-end;
-    box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+    box-shadow: 0px 7px 10px var(--secondary-color);
     transition: 0.5s ease-in-out;
+    color: var(--secondary-color);
 }
 
 .card:before{
@@ -123,7 +141,7 @@
 .card .info{
     position: relative;
     z-index: 3;
-    color: #ffffff;
+    color: var(--primary-color);
     opacity: 0;
     transform: translateY(30px);
     transition: 0.5s all;
@@ -146,17 +164,17 @@
 .card .info .btn{
     text-decoration: none;
     padding: 0.5rem 1rem;
-    background: #ffffff;
+    background: var(--primary-color);
     border-radius: 2px;
     margin: 2px;
-    color: #000;
+    color: var(--secondary-color);
     font-size: 12px;
     font-weight: bold;
     cursor: pointer;
     transition: 0.4s ease-in-out;
 }
 .card .info .btn:hover{
-    box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+    box-shadow: 0px 7px 10px var(--secondary-color);
 }
 /* Scroll bar custom : Default*/
 
@@ -191,7 +209,7 @@ nav {
     width: 100%;
     height: 15px;
     justify-content: space-between;
-    background-color: #ffffff;
+    background-color: var(--primary-color);
     align-items: center;
     padding: 40px 5%;
     font-family: 'Montserrat', sans-serif;
@@ -209,7 +227,7 @@ nav {
 }
 
 nav a{
-    color: rgb(0, 0, 0);
+    color: var(--secondary-color);
     text-decoration: none;
     padding: 9px 25px;
 }
@@ -218,6 +236,7 @@ nav a{
 .hero--section{
     padding-left: 80px;
     font-weight: bold;
+    color: var(--secondary-color);
 }
 /*
 .hero--img{
@@ -242,6 +261,7 @@ nav a{
     font-size:30px;
     list-style-type: none;
     margin-top: 10px;
+    color: var(--secondary-color);
 }
 .social > li{
     margin: 25px;
@@ -251,7 +271,7 @@ nav a{
     font-family: 'Montserrat', sans-serif;
     margin: 0 auto;
     width: 600px;
-
+    color: var(--secondary-color);
 }
 .main--logo{
     height: 150px;
@@ -286,6 +306,7 @@ nav a{
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
     font-size: 90;
+    color: var(--secondary-color);
 }
 
 .project--img{
@@ -302,6 +323,7 @@ nav a{
     justify-content: center;
     padding-bottom: 30px;
     font-family: 'Montserrat', sans-serif;
+    color: var(--secondary-color);
 }
 
 .contact--footbar{
@@ -313,6 +335,7 @@ nav a{
     padding-right: 300px;
     padding-bottom: 70px;
     font-size: 17px;
+    color: var(--secondary-color);
 }
 
 .footer-item_l > a{
@@ -320,7 +343,7 @@ nav a{
     flex-direction: column;
     text-decoration: none;
     margin-bottom: 10px;
-    color: rgb(0, 0, 0);
+    color: var(--secondary-color);
     font-family: 'Montserrat', sans-serif;
 }
 .footer-item_r > a{
@@ -328,18 +351,19 @@ nav a{
     flex-direction: column;
     text-decoration: none;
     margin-bottom: 10px;
-    color: rgb(0, 0, 0);
+    color: var(--secondary-color);
     font-family: 'Montserrat', sans-serif;
 }
 .footer-title{
     font-weight: bold;
     padding-bottom: 15px;
+    color: var(--secondary-color);
 }
 .logo--color{
-    fill: rgb(53, 53, 53);
+    fill: var(--secondary-color);
 }
 .logo--color:hover{
-    fill: black;
+    fill: var(--primary-color);
 }
 nav a:hover{
     color: rgb(99, 99, 99);
@@ -392,7 +416,7 @@ nav a:hover{
     display: flex;
 }
 .cards .cards-inner {
-  background-color: #ffffff;
+  background-color: var(--primary-color);
   padding: 20px;
   border: 1px solid rgb(152, 144, 144);
   border-radius: 5px;
@@ -435,8 +459,8 @@ nav a:hover{
     padding-inline-start: 6px;
     padding-inline-end: 6px;
     border-radius: 3px;
-    background: rgba(254, 178, 178, 0.16);
-    color: rgb(85, 123, 227);
+    background: rgba(50, 49, 140, 0.16);
+    color: rgb(68, 103, 197);
     overflow: hidden;
     text-overflow: none
 }
@@ -465,7 +489,7 @@ nav a:hover{
 }
 .card--work img{
     width: 100px;
-    background-color: black;
+    background-color: var(--secondary-color);
 }
 .hero--work{
     padding-top: 120px;
