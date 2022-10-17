@@ -1,5 +1,5 @@
 import React from "react"
-import Navbar from "../components/Navbar.js"
+import Navbar from "../components/Navbar.jsx"
 import CardProjects from "../components/cardProjects"
 import { TabTitle } from "../utils/genfun.js"
 
