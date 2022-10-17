@@ -25,7 +25,9 @@ body{
 .resume--container{
     margin-top: 100px;
 }
-
+.container{
+    margin-top: 20px ;
+}
 .a-btn-gh-b{
     margin: auto;
     margin-bottom: 40px;
@@ -363,7 +365,7 @@ nav a{
     fill: var(--secondary-color);
 }
 .logo--color:hover{
-    fill: var(--primary-color);
+    fill: #565656;
 }
 nav a:hover{
     color: rgb(99, 99, 99);
@@ -460,7 +462,7 @@ nav a:hover{
     padding-inline-end: 6px;
     border-radius: 3px;
     background: rgba(50, 49, 140, 0.16);
-    color: rgb(68, 103, 197);
+    color: rgb(0, 0, 0);
     overflow: hidden;
     text-overflow: none
 }
@@ -470,6 +472,9 @@ nav a:hover{
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+}
+#c{
+    padding: 5px;
 }
 @media (min-width: 912px) {
   .cards {

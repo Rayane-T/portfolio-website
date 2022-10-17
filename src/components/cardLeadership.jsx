@@ -1,6 +1,5 @@
 import React from "react"
 import ghdays from "../image/ghdays1.png"
-import C from "../image/clogo.png"
 import { NavLink } from "react-router-dom"
 import Contact from "./Contact"
 import { VscTerminalBash } from "react-icons/vsc"
@@ -14,7 +13,7 @@ export default function CardLeadership() {
             <div className="container">
                 <div className="cards">
                 <div className="a-btn-gh-b">
-                    <a href="https://github.com/Rayane-T" target="_blank"><button className="btn-gh-b"><AiFillLinkedin size="11px"/>LinkedIn</button></a>
+                    <a href="https://www.linkedin.com/in/rayanetayache/" target="_blank"><button className="btn-gh-b"><AiFillLinkedin size="11px"/>LinkedIn</button></a>
                     <NavLink to="/Resume"><button className="btn-gh-b"><AiOutlineFile size="11px"/>Resume</button></NavLink>
                 </div>
                     <div className="cards-inner">
@@ -38,7 +37,7 @@ export default function CardLeadership() {
                             <span className="css-1h8gyx6">Community Management</span>
                         </span>
                         <span className="css-1qm7jzg">
-                            <span className="css-1h8gyx6">Opportunity</span>
+                            <span className="css-1h8gyx6">Hackathon Management</span>
                         </span>
                     </div>
                 </div>
@@ -63,8 +62,7 @@ export default function CardLeadership() {
                                 <Logo/>
                             </div>
                         </div>
-                        <span className="css-1qm7jzg">
-                            <img src={C} alt="c logo" height="30px" />
+                        <span className="css-1qm7jzg" id="c">
                             <span className="css-1h8gyx6">C (Programming Language)</span>
                         </span>
                         <span className="css-1qm7jzg">

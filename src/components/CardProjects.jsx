@@ -6,7 +6,7 @@ import skyscrapper  from "../image/sky.PNG"
 import Labyrinth from "../image/laby.png"
 import Portfolio from "../image/Main Logo2.png"
 import Interpreter from "../image/interpreter.jpg"
-import { GoMarkGithub } from "react-icons/go"
+import { FiGithub } from "react-icons/fi"
 export default function CardProjects() {
     return (
         <div>
@@ -17,7 +17,7 @@ export default function CardProjects() {
             </div>
         <div>
             <div className="a-btn-gh">
-                <a href="https://github.com/Rayane-T" target="_blank"><button className="btn-gh"><GoMarkGithub size="11px"/>GitHub</button></a>
+                <a href="https://github.com/Rayane-T" target="_blank"><button className="btn-gh"><FiGithub size="1em"/>GitHub</button></a>
             </div>
             <div className="contain-wrapper">
                 <a href="https://github.com/Rayane-T/Track" target={"_blank"}>
