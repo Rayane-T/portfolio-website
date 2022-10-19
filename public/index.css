@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Noto+Sans:ital,wght@0,700;1,700&display=swap');
 *{
     box-sizing: border-box;
     margin: 0;
@@ -214,7 +214,7 @@ nav {
     background-color: var(--primary-color);
     align-items: center;
     padding: 40px 5%;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     opacity: 0.8;
     z-index: 999;
 }
