@@ -94,7 +94,20 @@ body{
     font-size: small;
     color: var(--secondary-color);
 }
+.externallinks{
+    display: flex;
+    justify-content: space-between;
+}
+.externallinks > h2{
+    padding-right: 10px;
+}
+a {
+    color: inherit;
+}
 
+.rightalign{
+    text-align: right;    
+}
 .wrapper{
     margin-top: 200px;
     width: 400px;
