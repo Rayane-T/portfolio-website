@@ -429,6 +429,7 @@ nav a:hover{
 }
 .cards .cards-inner .ndblock{
     display: flex;
+    justify-content: space-between;
 }
 .cards .cards-inner {
   background-color: var(--primary-color);

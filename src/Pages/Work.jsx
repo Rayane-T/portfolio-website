@@ -1,6 +1,6 @@
 import React from "react"
 import Navbar from "../components/Navbar.jsx"
-import CardWork from "../components/cardWork"
+import CardWork from "../components/CardWork"
 import { TabTitle } from "../utils/genfun.js"
 import Contact from "../components/Contact.jsx"
 
