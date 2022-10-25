@@ -4,6 +4,7 @@ import { IconContext } from "react-icons"
 import {FaGithubSquare,FaLinkedin,FaInstagramSquare} from "react-icons/fa"
 import {AiOutlineMail} from "react-icons/ai"
 import {GoCalendar} from "react-icons/go"
+import Contact from "../components/Contact"
 
 export default function Hero(){
     return(
@@ -30,7 +31,7 @@ export default function Hero(){
                     <li><a href="mailto:rayane.tayache@etu.unistra.fr" target="_blank" ><AiOutlineMail className="logo--color"/></a></li>
                     <li><a href="https://calendly.com/rayane-tayache/30min" target="_blank" ><GoCalendar className="logo--color"/></a></li>
                     </IconContext.Provider>
-                </ul>
+                </ul>   
         </section>
     )
 }

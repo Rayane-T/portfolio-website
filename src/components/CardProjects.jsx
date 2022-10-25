@@ -16,7 +16,7 @@ export default function CardProjects() {
                 <p className="p1">Here you can see a bunch of projects I've worked on in the past couple of years.</p>
                 <p className="p2"> --Hover over the projects below to view more details, some even have demos</p>
             </div>
-        <div>
+        <div className="contain-wrapper">
             <div className="a-btn-gh">
                 <a href="https://github.com/Rayane-T" target="_blank"><button className="btn-gh"><FiGithub size="1em"/>GitHub</button></a>
             </div>
@@ -28,7 +28,10 @@ export default function CardProjects() {
                         <div className="info">
                             <div className="externallinks">
                                 <h2>Track</h2>
-                                <a href="https://github.com/Rayane-T/Track"><FiGithub size="2em"/></a>
+                                <div className="rightalign">
+                                    <a href="https://devpost.com/software/track-pwrn7y"><FiExternalLink size="2em"/></a>
+                                    <a href="https://github.com/Rayane-T/Track"><FiGithub size="2em"/></a>
+                                </div>
                             </div>
                             <p>Track is a fullstack expense tracker application that enables collaboration between people when budgeting.</p>
                             <a href="https://github.com/Rayane-T/Track" className="btn">ReactJS</a>
