@@ -12,6 +12,26 @@
     --secondary-color: #212121;
 }
 
+  .hover-animation {
+    height: 350px;
+    width: 350px;
+    margin: 10% 60% 5% 16%;
+  }
+  
+  .hover-animation img {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    transition: 0.5s;
+  }
+  .hover-animation img.img-front:hover{
+    opacity:0;
+    cursor: pointer;
+  }
+.hover-animation img.img-back:hover{
+  transform: scale(1.1);
+  z-index: 2;
+}
 .dark-theme{
     --primary-color: #000000;
     --secondary-color: #ffffff;
@@ -19,9 +39,7 @@
 body{
     background-color: var(--primary-color);
 }
-#dlicon{
-    cursor: pointer;
-}
+
 .resume--container{
     margin-top: 100px;
 }
@@ -48,7 +66,7 @@ body{
 .a-btn-gh{
     margin: auto;
     margin-top: 80px;
-    width: 65%;
+    width: 96%;
 }
 .btn-gh{
     margin: auto;
@@ -107,6 +125,10 @@ a {
 
 .rightalign{
     text-align: right;    
+}
+.wrapper1{
+    width: 1170px;
+    margin: 0 auto; 
 }
 .wrapper{
     margin-top: 200px;
@@ -285,18 +307,24 @@ nav a{
 .hero--p{
     font-family: 'Montserrat', sans-serif;
     margin: 0 auto;
-    width: 600px;
+    width: 700px;
     color: var(--secondary-color);
 }
+
 .main--logo{
-    height: 150px;
-    font-size: 20px;
+    height: 190px;
     transition: 0.5s;
-    margin: 30% 37% 17%;;
+    margin: 18% 37% 17%;;
+}
+.main--logo2{
+    height: 190px;
+    transition: 0.5s;
+    margin: 18% 37% 17%;;
 }
 
 .main--logo:hover{
     transform: scale(1.1);
+    fill: #555;
     z-index: 2;
 }
 .hero--fp{
@@ -375,13 +403,14 @@ nav a{
     color: var(--secondary-color);
 }
 .logo--color{
-    fill: var(--secondary-color);
+    fill: #565656;
+
 }
 .logo--color:hover{
-    fill: #565656;
+    fill: var(--secondary-color);
 }
 nav a:hover{
-    color: rgb(99, 99, 99);
+    color: rgb(80, 80, 80);
 }
 .active{
     color: rgb(99, 99, 99);
