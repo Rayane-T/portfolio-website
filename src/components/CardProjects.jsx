@@ -11,11 +11,6 @@ import { FiGithub, FiExternalLink } from "react-icons/fi"
 export default function CardProjects() {
     return (
         <div>
-            <div className="main-title-project">
-                <h2 className="title">Personal Projects 📦</h2>
-                <p className="p1">Here you can see a bunch of projects I've worked on in the past couple of years.</p>
-                <p className="p2"> --Hover over the projects below to view more details, some even have demos</p>
-            </div>
         <div className="contain-wrapper">
             <div className="a-btn-gh">
                 <a href="https://github.com/Rayane-T" target="_blank"><button className="btn-gh"><FiGithub size="1em"/>GitHub</button></a>

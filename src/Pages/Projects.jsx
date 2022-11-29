@@ -8,6 +8,11 @@ export default function Projects(){
     return(
         <div>
             <Navbar/>
+            <div className="hero--work">
+                <h1>Personal Projects 📦</h1>
+                <p className="p1">Here you can see a bunch of projects I've worked on in the past couple of years.</p>
+                <p className="p2"> --Hover over the projects below to view more details, some even have demos</p>
+            </div>
             <CardProjects/>
         </div>
     )

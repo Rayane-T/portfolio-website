@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Noto+Sans:ital,wght@0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
 *{
     box-sizing: border-box;
     margin: 0;
@@ -12,22 +13,22 @@
     --secondary-color: #212121;
 }
 
-  .hover-animation {
-    height: 350px;
-    width: 350px;
-    margin: 10% 60% 5% 16%;
-  }
+.hover-animation {
+height: 350px;
+width: 350px;
+margin: 12% 60% 0% 30%;
+}
   
-  .hover-animation img {
-    position: absolute;
-    width: 300px;
-    height: 300px;
-    transition: 0.5s;
-  }
-  .hover-animation img.img-front:hover{
-    opacity:0;
-    cursor: pointer;
-  }
+.hover-animation img {
+position: absolute;
+width: 300px;
+height: 300px;
+transition: 0.5s;
+}
+.hover-animation img.img-front:hover{
+opacity:0;
+cursor: pointer;
+}
 .hover-animation img.img-back:hover{
   transform: scale(1.1);
   z-index: 2;
@@ -65,9 +66,24 @@ body{
 }
 .a-btn-gh{
     margin: auto;
-    margin-top: 80px;
     width: 96%;
 }
+
+@media screen and (max-width: 1250px) 
+{
+    .a-btn-gh{
+        width: 83%;
+    }
+
+    nav a{
+        font-size: x-large;
+    }
+
+    .contact--footbar{
+        padding-top: 400px;
+    }
+}
+
 .btn-gh{
     margin: auto;
     width: 100%; 
@@ -125,10 +141,6 @@ a {
 
 .rightalign{
     text-align: right;    
-}
-.wrapper1{
-    width: 1170px;
-    margin: 0 auto; 
 }
 .wrapper{
     margin-top: 200px;
@@ -250,9 +262,9 @@ nav {
     background-color: var(--primary-color);
     align-items: center;
     padding: 40px 5%;
-    font-family: 'Noto Sans', sans-serif;
     opacity: 0.8;
     z-index: 999;
+    font-weight: 500;
 }
 
 .nav--rightside{
@@ -261,7 +273,9 @@ nav {
 }
 
 .nav--leftside{
-    font-weight: bold;
+    font-weight: 900;
+    font-family: 'Bad Script', cursive;
+    font-size: larger;
 }
 
 nav a{
@@ -269,8 +283,15 @@ nav a{
     text-decoration: none;
     padding: 9px 25px;
 }
+
 /* About */
 
+.a-about{
+    color: #565656;
+}
+.a-about:hover{
+    color: rgb(15, 15, 157);
+}
 .hero--section{
     font-weight: bold;
     color: var(--secondary-color);
@@ -307,32 +328,16 @@ nav a{
 .hero--p{
     font-family: 'Montserrat', sans-serif;
     margin: 0 auto;
-    width: 700px;
+    width: 900px;
     color: var(--secondary-color);
 }
 
-.main--logo{
-    height: 190px;
-    transition: 0.5s;
-    margin: 18% 37% 17%;;
-}
-.main--logo2{
-    height: 190px;
-    transition: 0.5s;
-    margin: 18% 37% 17%;;
-}
-
-.main--logo:hover{
-    transform: scale(1.1);
-    fill: #555;
-    z-index: 2;
-}
 .hero--fp{
-    max-width: 700px;
+    max-width: 900px;
     margin-bottom: 20px;
 }
 .hero--sp{
-    max-width: 700px;
+    max-width: 900px;
 }
 
 .card-work{
@@ -404,7 +409,7 @@ nav a{
 }
 .logo--color{
     fill: #565656;
-
+    transition: 0.2s;
 }
 .logo--color:hover{
     fill: var(--secondary-color);

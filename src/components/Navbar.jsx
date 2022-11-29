@@ -5,7 +5,7 @@ export default function Navbar(){
 
     return (
         <nav>
-            <NavLink to="/" className="nav--leftside">Rayane</NavLink>
+            <NavLink to="/" className="nav--leftside">RT</NavLink>
             <div className="nav--rightside">
                 <NavLink to="/Projects">Projects</NavLink>
                 <NavLink to="/Work">Work</NavLink>
