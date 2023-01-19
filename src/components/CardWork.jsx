@@ -21,7 +21,7 @@ export default function CardWork() {
                     <div className="cards-inner">
                         <div className= "ndblock">
                             <div>
-                                <h5 className="fontwork">Software Developer Intern</h5>
+                                <h5 className="fontwork">Software Engineering Summer Bootcamp</h5>
                                 <h6 className="fontwork">42 Berlin</h6>
                                 <h6 className="fontwork">Jun. 2022 - Jul. 2022</h6>
                                 <p>

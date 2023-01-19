@@ -5,6 +5,7 @@ import Projects from "./Pages/Projects"
 import Work from "./Pages/Work"
 import Resume from "./Pages/Resume"
 import Leadership from "./Pages/Leadership"
+import BucketList from "./Pages/BucketList"
 import {BrowserRouter as Router, Routes, Route, Navigate} from "react-router-dom"
 
 
@@ -16,6 +17,7 @@ ReactDOM.render(
         <Route path="/Work" element={<Work />} />
         <Route path="/Resume" element={<Resume />}/>
         <Route path="/Leadership" element={<Leadership />} />
+        <Route path="/BucketList" element={<BucketList />} />
         <Route path="*" element={<Navigate to="/" />}/>
     </Routes>
 </Router>, document.getElementById("root"))

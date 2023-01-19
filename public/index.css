@@ -16,7 +16,7 @@
 .hover-animation {
 height: 350px;
 width: 350px;
-margin: 12% 60% 0% 30%;
+margin: 12% 60% 0% 33%;
 }
   
 .hover-animation img {
@@ -274,7 +274,6 @@ nav {
 
 .nav--leftside{
     font-weight: 900;
-    font-family: 'Bad Script', cursive;
     font-size: larger;
 }
 
@@ -309,7 +308,12 @@ nav a{
     z-index: 2;
 }
 */
-
+.list--arrangment{
+    margin: auto;
+    width: 40%;
+    padding-top: 50px;
+    margin-bottom: 40px;
+}
 .bold{
     font-weight: bold;
 }

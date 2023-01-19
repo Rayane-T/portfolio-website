@@ -21,7 +21,7 @@ import React from "react"
                         <a href="mailto:rayane.tayache@etu.unistra.fr" target="_blank">Email</a>
                     </div>
                 </div>
-             <div className="mention">Developed and designed by Rayane Tayache, © 2022</div>
+             <div className="mention">Developed and designed by Rayane Tayache, © 2023</div>
          </section>
      )
  }
