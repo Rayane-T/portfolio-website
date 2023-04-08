@@ -24,8 +24,8 @@ export default function Hero(){
                     </a>
 
                     <p className="hero--fp">Hey, my name is <span className="name">Rayane Tayache </span>   
-                     and I’m a Computer Science major and Law minor at <a href="https://en.unistra.fr/" className="a-about">University of Strasbourg</a> in my sophomore year, planning on graduating by June 2024.<br/>
-                    Outside of school, I'm involved in the development of multiple projects such as organising the next <a href="https://githubfieldday.com/berlin2022/" className="a-about">GitHub Field Day</a> in Berlin. 
+                     and I’m a Computer Science major with an Economics option at <a href="https://en.unistra.fr/" className="a-about">University of Strasbourg</a> in my sophomore year, planning on graduating by June 2024.<br/>
+                    Outside of school, I'm involved in the development of leadership projects such as organising <br/>the next <a href="https://githubfieldday.com/berlin2022/" className="a-about">GitHub Field Day</a> in Berlin and planning on launching a hackathon at<a href="https://en.unistra.fr" className="a-about"> unistra</a>. 
                     
                     </p>
                     <p className="hero--fp"> Throughout last summer I interned at <a href="https://42berlin.de/" className="a-about">42 Berlin</a>,
@@ -33,7 +33,7 @@ export default function Hero(){
                     I'm open to chat about internship and working-student opportunities for Summer 2023.
                     </p>
 
-                    <p className="hero--sp">I love talking about Leadership, reading books, travelling around the world looking for cultural novelty and play sports
+                    <p className="hero--sp">I love talking about Leadership experience, reading books, travelling around the world looking for cultural novelty and play sports
                     - So feel free to hit me up via email or set-up some time in my schedule by clicking the calendar below!
                     </p>
                 </div>

@@ -11,10 +11,11 @@ export default function BucketList(){
             <div className="hero--work">
                 <h1>List 100 </h1>
                 <p className="p1">Things I want to do before I die. Please let me know if you have any recommendation.</p>
-                <p className="p2">Progress as of Jan 19, 2023: 4.25/63.</p>
+                <p className="p2">Progress as of Apr 8, 2023: 4.25/65.</p>
             </div>
             <ol className="list--arrangment">
                 <li>✓ Live in another country</li>
+                <li>✗ Live on an island</li>
                 <li>✗ Ride a horse in Mongolia</li>
                 <li>✗ Atteign Body Prime</li>
                 <li>✓ Learn to drive a car</li>
@@ -77,6 +78,7 @@ export default function BucketList(){
                 <li>✗ Meet Dalai Lama </li>
                 <li>~ Be awesome </li>
                 <li>~ Be kind</li>
+                <li>~ Succeed life</li>
             </ol>
         </div>
     )
