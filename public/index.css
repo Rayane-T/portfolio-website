@@ -126,7 +126,7 @@ body{
 .p2{
     font-weight:500;
     font-size: small;
-    color: var(--secondary-color);
+
 }
 .externallinks{
     display: flex;
@@ -212,6 +212,7 @@ a {
 
 .card .info .btn{
     text-decoration: none;
+    display: inline-block;
     padding: 0.5rem 1rem;
     background: var(--primary-color);
     border-radius: 2px;
@@ -222,9 +223,7 @@ a {
     cursor: pointer;
     transition: 0.4s ease-in-out;
 }
-.card .info .btn:hover{
-    box-shadow: 0px 7px 10px var(--secondary-color);
-}
+
 /* Scroll bar custom : Default*/
 
 ::-webkit-scrollbar{
@@ -249,6 +248,7 @@ a {
 
 /*---- Navbar ----*/
 
+
 nav {
     display: flex;
     position: fixed;
@@ -269,6 +269,7 @@ nav {
 
 .nav--rightside{
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -278,11 +279,19 @@ nav {
 }
 
 nav a{
-    color: var(--secondary-color);
     text-decoration: none;
     padding: 9px 25px;
 }
-
+.icon-container {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  .icon {
+    font-size: 1.5rem;
+    margin-right: 5px;
+  }
 /* About */
 
 .a-about{
@@ -394,7 +403,6 @@ nav a{
     flex-direction: column;
     text-decoration: none;
     margin-bottom: 10px;
-    color: var(--secondary-color);
     font-family: 'Montserrat', sans-serif;
 }
 .footer-item_r > a{
@@ -402,7 +410,6 @@ nav a{
     flex-direction: column;
     text-decoration: none;
     margin-bottom: 10px;
-    color: var(--secondary-color);
     font-family: 'Montserrat', sans-serif;
 }
 .footer-title{
@@ -421,9 +428,7 @@ nav a{
 nav a:hover{
     color: rgb(80, 80, 80);
 }
-.active{
-    color: rgb(99, 99, 99);
-}
+
 .flex {
     display: flex;
     font-family: 'Montserrat', sans-serif;
@@ -470,7 +475,6 @@ nav a:hover{
     justify-content: space-between;
 }
 .cards .cards-inner {
-  background-color: var(--primary-color);
   padding: 20px;
   border: 1px solid rgb(152, 144, 144);
   border-radius: 5px;

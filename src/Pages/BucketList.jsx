@@ -2,12 +2,13 @@ import React from "react"
 import Navbar from "../components/Navbar.jsx"
 import CardLeadership from "../components/cardLeadership"
 import { TabTitle } from "../utils/genfun.js"
+import Contact from "../components/Contact.jsx"
 
-export default function BucketList(){
+export default function BucketList({ isDarkMode, toggleDarkMode }){
     TabTitle('List 100 | Rayane Tayache')
     return(
-        <div>
-            <Navbar/>
+        <div className={isDarkMode ? 'dark-mode' : ''}>
+        <Navbar toggleDarkMode={toggleDarkMode} isDarkMode={isDarkMode}/>
             <div className="hero--work">
                 <h1>List 100 </h1>
                 <p className="p1">Things I want to do before I die. Please let me know if you have any recommendation.</p>
@@ -80,6 +81,7 @@ export default function BucketList(){
                 <li>~ Be kind</li>
                 <li>~ Succeed life</li>
             </ol>
+            <Contact/>
         </div>
     )
 }

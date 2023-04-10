@@ -4,11 +4,11 @@ import CardWork from "../components/CardWork"
 import { TabTitle } from "../utils/genfun.js"
 import Contact from "../components/Contact.jsx"
 
-export default function Work(){
+export default function Work({ isDarkMode, toggleDarkMode }){
     TabTitle('Work | Rayane Tayache')
     return(
-        <div>
-            <Navbar/>
+        <div className={isDarkMode ? 'dark-mode' : ''}>
+        <Navbar toggleDarkMode={toggleDarkMode} isDarkMode={isDarkMode}/>
             <div className="hero--work">
                 <h1>Internship Experience 👔</h1>
                 <p className="p1">Here you can see all the places I've worked at so far, as well as what I did there.</p>

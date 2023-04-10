@@ -12,4 +12,8 @@
 
 
 - Create a better project showcase page
+- Resume page color + Bug ?
+
+## DONE :
+
 - (Optionnal) Dark Mode 
