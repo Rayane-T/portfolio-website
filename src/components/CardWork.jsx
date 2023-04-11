@@ -6,6 +6,7 @@ import { AiOutlineFile, AiFillLinkedin} from "react-icons/ai"
 import { ReactComponent as Logo }  from "../image/42logo_site.svg"
 import { VscTerminalBash } from "react-icons/vsc"
 import { FaLinux } from "react-icons/fa"
+
 export default function CardWork() {
     return (
         <section>

@@ -7,8 +7,10 @@ import {FaGithubSquare,FaLinkedin} from "react-icons/fa"
 import {BsListNested} from "react-icons/bs"
 import {AiOutlineMail} from "react-icons/ai"
 import {GoCalendar} from "react-icons/go"
+import '../Pages/darkmode.css';
 
 export default function Hero(){
+
     return(
         <section className="hero--section">
                 <div className="hero--p">
