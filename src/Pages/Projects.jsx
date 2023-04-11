@@ -7,7 +7,7 @@ export default function Projects({ isDarkMode, toggleDarkMode }){
     TabTitle('Projects | Rayane Tayache')
 
     return(
-        <div className={isDarkMode ? 'dark-mode' : ''}>
+        <div className={isDarkMode ? 'dark-mode-parent' : ''}>
             <Navbar toggleDarkMode={toggleDarkMode} isDarkMode={isDarkMode}/>
             <div className="hero--work">
                 <h1>Personal Projects 📦</h1>

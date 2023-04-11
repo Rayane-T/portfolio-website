@@ -7,7 +7,7 @@ import Contact from "../components/Contact.jsx"
 export default function Work({ isDarkMode, toggleDarkMode }){
     TabTitle('Work | Rayane Tayache')
     return(
-        <div className={isDarkMode ? 'dark-mode' : ''}>
+        <div className={isDarkMode ? 'dark-mode-parent' : ''}>
         <Navbar toggleDarkMode={toggleDarkMode} isDarkMode={isDarkMode}/>
             <div className="hero--work">
                 <h1>Internship Experience 👔</h1>

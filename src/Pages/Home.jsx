@@ -7,7 +7,7 @@ import { TabTitle } from "../utils/genfun.js"
 export default function Home({ isDarkMode, toggleDarkMode }){
   TabTitle('Home | Rayane Tayache');
   return(
-    <div className={isDarkMode ? 'dark-mode' : ''}>
+    <div className={isDarkMode ? 'dark-mode-parent' : ''}>
         <Navbar toggleDarkMode={toggleDarkMode} isDarkMode={isDarkMode}/>
         <About />
         <Contact />

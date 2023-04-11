@@ -6,7 +6,7 @@ import { TabTitle } from "../utils/genfun.js"
 export default function Leadership({ isDarkMode, toggleDarkMode }){
     TabTitle('Leadership | Rayane Tayache')
     return(
-        <div className={isDarkMode ? 'dark-mode' : ''}>
+        <div className={isDarkMode ? 'dark-mode-parent' : ''}>
             <Navbar toggleDarkMode={toggleDarkMode} isDarkMode={isDarkMode}/>
             <div className="hero--work">
                 <h1>Leadership Experience 💭</h1>

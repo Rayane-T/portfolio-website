@@ -7,6 +7,11 @@
     background: #161517;
     
 }
+
+.dark-mode-parent {
+    background-color:#151419;
+    min-height: 100%;
+}
 .dark-mode section {
     color: #FFFFFF;
 }
