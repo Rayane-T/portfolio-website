@@ -2,7 +2,7 @@ import React from "react"
 
  export default function Contact(){
      return (
-         <section>
+         <>
              <div className="contact--footbar">
                     <div className="footer-item_l" >
                         <div className="footer-title">Projects</div>
@@ -22,6 +22,6 @@ import React from "react"
                     </div>
                 </div>
              <div className="mention">Developed and designed by Rayane Tayache, © 2023</div>
-         </section>
+         </>
      )
  }

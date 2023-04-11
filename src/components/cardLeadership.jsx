@@ -10,8 +10,17 @@ export default function CardLeadership() {
             <div className="container">
                 <div className="cards">
                 <div className="a-btn-gh-b">
-                    <a href="https://www.linkedin.com/in/rayanetayache/" target="_blank"><button className="btn-gh-b"><AiFillLinkedin size="11px"/>LinkedIn</button></a>
-                    <NavLink to="/Resume"><button className="btn-gh-b"><AiOutlineFile size="11px"/>Resume</button></NavLink>
+                    <a href="https://www.linkedin.com/in/rayanetayache/" target="_blank">
+                        <button className="btn-gh-b">
+                        <div>
+                            <AiFillLinkedin size="11px"/>
+                            <p>LinkedIn</p>
+                        </div>
+                        </button>
+                </a>
+                    <NavLink to="/Resume"><button className="btn-gh-b">
+                        <div><AiOutlineFile size="11px"/><p>Resume</p></div>
+                        </button></NavLink>
                 </div>
                     <div className="cards-inner">
                         <div className= "ndblock">
