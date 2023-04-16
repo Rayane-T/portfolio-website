@@ -7,7 +7,7 @@ import Resume from "./Pages/Resume";
 import Leadership from "./Pages/Leadership";
 import BucketList from "./Pages/BucketList";
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
-import "./Pages/darkmode.css";
+
 
 function App() {
   const [isDarkMode, setIsDarkMode] = useState(() => {

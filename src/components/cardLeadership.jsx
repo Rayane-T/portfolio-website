@@ -13,13 +13,13 @@ export default function CardLeadership() {
                     <a href="https://www.linkedin.com/in/rayanetayache/" target="_blank">
                         <button className="btn-gh-b">
                         <div>
-                            <AiFillLinkedin size="11px"/>
+                            <AiFillLinkedin className="icon-socials"/>
                             <p>LinkedIn</p>
                         </div>
                         </button>
                 </a>
                     <NavLink to="/Resume"><button className="btn-gh-b">
-                        <div><AiOutlineFile size="11px"/><p>Resume</p></div>
+                        <div><AiOutlineFile className="icon-socials"/><p>Resume</p></div>
                         </button></NavLink>
                 </div>
                     <div className="cards-inner">
@@ -36,15 +36,17 @@ export default function CardLeadership() {
                                 <img src={ghdays} height="100px"/>
                             </div>
                         </div>
-                        <span className="css-1qm7jzg">
-                            <span className="css-1h8gyx6">Leadership</span>
-                        </span>
-                        <span className="css-1qm7jzg">
-                            <span className="css-1h8gyx6">Community Management</span>
-                        </span>
-                        <span className="css-1qm7jzg">
-                            <span className="css-1h8gyx6">Hackathon Management</span>
-                        </span>
+                        <div className="css-1qm7jzg-wrapper">
+                            <span className="css-1qm7jzg">
+                                <span className="css-1h8gyx6">Leadership</span>
+                            </span>
+                            <span className="css-1qm7jzg">
+                                <span className="css-1h8gyx6">Community Management</span>
+                            </span>
+                            <span className="css-1qm7jzg">
+                                <span className="css-1h8gyx6">Hackathon Management</span>
+                            </span>
+                        </div>
                     </div>
                 </div>
             </div>

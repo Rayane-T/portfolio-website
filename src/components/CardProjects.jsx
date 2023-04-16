@@ -15,7 +15,7 @@ export default function CardProjects() {
             <div className="a-btn-gh">
                 <a href="https://github.com/Rayane-T" target="_blank"><button className="btn-gh">
                     <div>
-                    <FiGithub size="1em"/><p>GitHub</p></div></button></a>
+                    <FiGithub className="icon-socials"/><p>GitHub</p></div></button></a>
             </div>
             <div className="contain-wrapper">
                 <a href="https://github.com/Rayane-T/Track" target={"_blank"}>

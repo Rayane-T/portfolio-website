@@ -1,0 +1,42 @@
+.dark-mode{
+    background-color: #171717;
+    color: #CBE4DE;
+}
+
+.dark-mode nav {
+    background: #171717;
+    color: #CBE4DE;
+}
+.dark-mode nav a:hover {
+    color: #EDEDED;
+}
+.dark-mode .css-1qm7jzg{
+    background: #51786f;
+    color:#EDEDED;
+}
+.dark-mode-parent {
+    background-color:#171717;
+    color: #CBE4DE;
+    min-height: 100%;
+}
+.dark-mode section {
+    color: #CBE4DE;
+}
+.dark-mode div {
+    color: #CBE4DE;
+}
+
+.dark-mode .logo--color {
+    fill: #71a99c;
+    transition: 0.2s;
+  }
+.dark-mode .logo--color:hover {
+    fill: #CBE4DE;
+  }
+
+.dark-mode  .a-about {
+    color: #71a99c;
+  }
+.dark-mode .a-about:hover {
+    color: #CBE4DE;
+  }

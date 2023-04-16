@@ -1,6 +1,5 @@
 import React from "react"
 import Navbar from "../components/Navbar.jsx"
-import CardLeadership from "../components/cardLeadership"
 import { TabTitle } from "../utils/genfun.js"
 import Contact from "../components/Contact.jsx"
 
@@ -19,7 +18,6 @@ export default function BucketList({ isDarkMode, toggleDarkMode }){
                 <li>✗ Live on an island</li>
                 <li>✗ Ride a horse in Mongolia</li>
                 <li>✗ Atteign Body Prime</li>
-                <li>✓ Learn to drive a car</li>
                 <li>✗ Surf in Hawaii</li>
                 <li>✗ Scuba dive</li>
                 <li>✗ Run a marathon</li>
@@ -28,6 +26,7 @@ export default function BucketList({ isDarkMode, toggleDarkMode }){
                 <li>✗ Do a Norsemen</li>
                 <li>✗ Swim ten kilometers</li>
                 <li>✓ Be in a submarine</li>
+                <li>✗ Launch a hackathon</li>
                 <li>✓ Go on a trip overseas with friends</li>
                 <li>✗ Become a parent</li>
                 <li>✗ Learn Russian, Mandarin Chinese, Spanish and German (~25% done)</li>

@@ -309,13 +309,17 @@ nav a {
   font-size: 1.5rem;
   margin-right: 5px;
 }
+.icon-socials {
+  font-size: 1rem;
+  margin-right: 5px;
+}
 /* About */
 
 .a-about {
   color: #565656;
 }
 .a-about:hover {
-  color: rgb(15, 15, 157);
+  color: #4dc1a6;;
 }
 .hero--section {
   font-weight: bold;
@@ -507,22 +511,19 @@ nav a:hover {
   padding: 10 237 10 237;
 }
 .css-1qm7jzg {
+  margin-right: 10px;
   display: inline-flex;
   vertical-align: top;
-  -webkit-box-align: center;
   align-items: center;
-  max-width: 100%;
-  font-weight: 400;
-  line-height: 1.2;
-  outline: 0px;
   min-height: 1.25rem;
   min-width: 1.25rem;
   font-size: small;
   padding-inline-start: 6px;
   padding-inline-end: 6px;
   border-radius: 3px;
-  background: rgba(50, 49, 140, 0.16);
-  color: rgb(0, 0, 0);
+
+  background: rgba(4, 0, 255, 0.223);
+
   overflow: hidden;
   text-overflow: none;
 }

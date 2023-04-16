@@ -4,6 +4,7 @@ import { NavLink } from "react-router-dom"
 import {TbMathFunction} from "react-icons/tb"
 import { AiOutlineFile, AiFillLinkedin} from "react-icons/ai"
 import { ReactComponent as Logo }  from "../image/42logo_site.svg"
+import { ReactComponent as LogoDark }  from "../image/42logo_site_dark.svg"
 import { VscTerminalBash } from "react-icons/vsc"
 import { FaLinux } from "react-icons/fa"
 
@@ -16,9 +17,9 @@ export default function CardWork() {
                     <a href="https://www.linkedin.com/in/rayanetayache/" target="_blank">
                         <button className="btn-gh-b">
                         <div>
-                            <AiFillLinkedin size="11px"/><p>LinkedIn</p></div></button></a>
+                            <AiFillLinkedin className="icon-socials"/><p>LinkedIn</p></div></button></a>
                     <NavLink to="/Resume"><button className="btn-gh-b">
-                        <div><AiOutlineFile size="11px"/><p>Resume</p></div></button></NavLink>
+                        <div><AiOutlineFile className="icon-socials"/><p>Resume</p></div></button></NavLink>
                 </div>
             </div>
             <div className="container">
