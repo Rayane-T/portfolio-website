@@ -3,7 +3,8 @@ import lmc from '../image/lmc.png'
 import { NavLink } from "react-router-dom"
 import {TbMathFunction} from "react-icons/tb"
 import { AiOutlineFile, AiFillLinkedin} from "react-icons/ai"
-import { ReactComponent as Logo }  from "../image/42logo_site.svg"
+import { ReactComponent as Logo }  from "../image/icube.jpg"
+import icube from "../image/icube.jpg"
 import { ReactComponent as LogoDark }  from "../image/42logo_site_dark.svg"
 import { VscTerminalBash } from "react-icons/vsc"
 import { FaLinux } from "react-icons/fa"
@@ -27,31 +28,32 @@ export default function CardWork() {
                     <div className="cards-inner">
                         <div className= "ndblock">
                             <div>
-                                <h5 className="fontwork">Software Engineering Summer Bootcamp</h5>
-                                <h6 className="fontwork">42 Berlin</h6>
-                                <h6 className="fontwork">Jun. 2022 - Jul. 2022</h6>
+                                <h5 className="fontwork">ML Research Intern</h5>
+                                <h6 className="fontwork">Icube Lab, CNRS - French National Centre for Scientific Research</h6>
+                                <h6 className="fontwork">May. 2023 - Jul. 2023</h6>
                                 <p>
-                                    - Selected to participate in a month bootcamp at 42 Berlin during the summer.<br/>
-                                    - I deepen my understanding in C language through developping amazing projects and making C librairies. <br/>
-                                    - Developped Bash scripts along my journey to simplify tasks and save more time. (Task Automation)<br/>
-                                    - Succeeded and certified with 40 Fellows among 140 participants!
+                                    - Machine learning, Modeling and Simulation Research Department.<br/>
                                 </p>
                             </div>
                             <div>
-                                <llogo/>
-                                <Logo/>
+                            <div>
+                                <img src={icube} height="120px"/>
+                            </div>
                             </div>
                         </div>
                         <span className="css-1qm7jzg" id="c">
-                            <span className="css-1h8gyx6">C (Programming Language)</span>
+                            <span className="css-1h8gyx6">Machine Learning</span>
+                        </span>
+                        <span className="css-1qm7jzg" id="c">
+                            <span className="css-1h8gyx6">Computer Graphics</span>
                         </span>
                         <span className="css-1qm7jzg">
                             <VscTerminalBash size="2em"/>
-                            <span className="css-1h8gyx6">BASH</span>
+                            <span className="css-1h8gyx6">Python</span>
                         </span>
                         <span className="css-1qm7jzg">
                             <FaLinux size="2em"/>
-                            <span className="css-1h8gyx6">LINUX</span>
+                            <span className="css-1h8gyx6">Pytorch</span>
                         </span>
                     </div>
                 </div>
