@@ -27,14 +27,14 @@ export default function Hero(){
                     
 
                     <p className="hero--fp">Hey, my name is <span className="name">Rayane Tayache </span>   
-                     and I’m a Computer Science major with an Economics option at <a href="https://en.unistra.fr/" className="a-about">University of Strasbourg</a> in my sophomore year, planning on graduating by June 2024.<br/>
+                     and I’m a Computer Science major with an Economics option at <a href="https://en.unistra.fr/" className="a-about">University of Strasbourg</a> in my sophomore year, planning on graduating by June 2024.
                     Outside of school, I'm involved in the development of leadership projects such as nextly launching a hackathon at<a href="https://en.unistra.fr" className="a-about"> unistra</a>. 
                     
                     </p>
                     <p className="hero--fp"> Throughout this year, I'll be working as ML Research Intern at Icube Lab, CNRS and will start a two semester exchange at the Indian Institute of Technology, Bombay both consecutively in the summer. I'm open to chat about internship and fellowship opportunities for 2024.
                     </p>
 
-                    <p className="hero--sp">I love talking about Trading strategy, Books and about food options in the Mumbai area, I'm also a sucker I am a sucker for all sorts of adventurous activities recommentdation.
+                    <p className="hero--sp">I love talking about Trading strategy, Books and about food options in the Mumbai area, I am a sucker for all sorts of adventurous activities recommentdation.
                     - So feel free to hit me up via email or set-up some time in my schedule by clicking the calendar below!
                     </p>
                 </div>
