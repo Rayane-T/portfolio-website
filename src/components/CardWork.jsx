@@ -47,12 +47,10 @@ export default function CardWork() {
                         <span className="css-1qm7jzg" id="c">
                             <span className="css-1h8gyx6">Computer Graphics</span>
                         </span>
-                        <span className="css-1qm7jzg">
-                            <VscTerminalBash size="2em"/>
+                        <span className="css-1qm7jzg" id="c">
                             <span className="css-1h8gyx6">Python</span>
                         </span>
-                        <span className="css-1qm7jzg">
-                            <FaLinux size="2em"/>
+                        <span className="css-1qm7jzg" id="c">
                             <span className="css-1h8gyx6">Pytorch</span>
                         </span>
                     </div>

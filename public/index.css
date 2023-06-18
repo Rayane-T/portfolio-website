@@ -1,12 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Noto+Sans:ital,wght@0,700;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bad+Script&display=swap");
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   text-decoration: none;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
+
 }
 :root {
   --primary-color: #ffffff;
@@ -16,15 +18,15 @@
 
 
 .hover-animation {
-  height: 350px;
-  width: 350px;
-  margin: 12% 60% 0% 33%;
+  height: 290px;
+  width: 290px;
+  margin: 6% auto 0;
 }
 
 .hover-animation img {
   position: absolute;
-  width: 300px;
-  height: 300px;
+  width: 240px;
+  height: 240px;
   transition: 0.5s;
 }
 .hover-animation img.img-front:hover {
@@ -349,17 +351,20 @@ nav a {
 }
 .hero--p {
   font-family: "Montserrat", sans-serif;
+  font-size: 17px;
   margin: 0 auto;
-  width: 900px;
+  width: 1000px;
   color: var(--secondary-color);
 }
 
 .hero--fp {
-  max-width: 900px;
-  margin-bottom: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-bottom: 20px;
 }
 .hero--sp {
-  max-width: 900px;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .card-work {
@@ -398,9 +403,8 @@ nav a {
 .contact--footbar {
   display: flex;
   width: 100%;
-  font-family: "Montserrat", sans-serif;
   justify-content: space-evenly;
-  padding-top: 130px;
+  padding-top: 190px;
   padding-bottom: 80px;
   font-size: 17px;
   color: var(--secondary-color);
@@ -487,6 +491,7 @@ nav a:hover {
   border: 1px solid rgb(152, 144, 144);
   border-radius: 5px;
   justify-content: space-between;
+  margin-bottom: 20px;
 }
 
 .cards .cards-inner div {
@@ -527,6 +532,14 @@ nav a:hover {
   overflow: hidden;
   text-overflow: none;
 }
+@media screen and (max-width: 1250px) {
+  .hover-animation {
+    margin: 10% auto 0;
+  }
+}
+
+
+
 
 .css-1h8gyx6 {
   line-height: 1.2;
