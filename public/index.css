@@ -582,3 +582,17 @@ nav a:hover {
 .hero--work > h4 {
   color: #777;
 }
+
+/* Add margin on both sides for mobile devices */
+@media screen and (max-width: 1250px) {
+  .hero--fp {
+    max-width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .hero--sp {
+    max-width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
