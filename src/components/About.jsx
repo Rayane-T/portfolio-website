@@ -30,7 +30,7 @@ export default function Hero(){
   <a href="https://en.unistra.fr/" className="a-about">
     University of Strasbourg
   </a>{' '}
-  in my sophomore year, planning on graduating by June 2024. Outside of school, I'm involved in the development of
+  in my third year, planning on graduating by June 2024. Outside of school, I'm involved in the development of
   leadership projects such as nextly launching a hackathon at{' '}
   <a href="https://en.unistra.fr" className="a-about">
     unistra
@@ -38,7 +38,7 @@ export default function Hero(){
   .
 </p>
 <p className="hero--fp">
-  Throughout this year, I'll be working as ML Research Intern at Icube Lab, CNRS and will start a two-semester exchange
+  Throughout this year, I'll be working as ML Research Intern at CNRS and will start a two-semester exchange
   at the Indian Institute of Technology, Bombay both consecutively this summer. I'm open to chat about internship
   and fellowship opportunities for 2024.
 </p>

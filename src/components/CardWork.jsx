@@ -3,8 +3,8 @@ import lmc from '../image/lmc.png'
 import { NavLink } from "react-router-dom"
 import {TbMathFunction} from "react-icons/tb"
 import { AiOutlineFile, AiFillLinkedin} from "react-icons/ai"
-import { ReactComponent as Logo }  from "../image/icube.jpg"
-import icube from "../image/icube.jpg"
+import { ReactComponent as Logo }  from "../image/cnrs.png"
+import cnrs from "../image/cnrs.png"
 import { ReactComponent as LogoDark }  from "../image/42logo_site_dark.svg"
 import { VscTerminalBash } from "react-icons/vsc"
 import { FaLinux } from "react-icons/fa"
@@ -29,15 +29,15 @@ export default function CardWork() {
                         <div className= "ndblock">
                             <div>
                                 <h5 className="fontwork">ML Research Intern</h5>
-                                <h6 className="fontwork">Icube Lab, CNRS - French National Centre for Scientific Research</h6>
+                                <h6 className="fontwork">CNRS - French National Centre for Scientific Research, Icube Laboratory</h6>
                                 <h6 className="fontwork">May. 2023 - Jul. 2023</h6>
                                 <p>
-                                    - Machine learning, Modeling and Simulation Research Department.<br/>
+                                    - Learning Signed Distance Function of a parametric human model, supervised by Pr. Hyewon Seo <br/>
                                 </p>
                             </div>
                             <div>
                             <div>
-                                <img src={icube} height="120px"/>
+                                <img src={cnrs} height="120px"/>
                             </div>
                             </div>
                         </div>

@@ -1,6 +1,6 @@
 import React from "react"
 import Navbar from "../components/Navbar"
-import resumepdf from "../image/resume.pdf"
+import resumepdf from "../image/Resume.pdf"
 import Contact from "../components/Contact"
 import { TabTitle } from "../utils/genfun.js"
 
