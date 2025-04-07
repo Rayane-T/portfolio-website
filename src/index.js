@@ -6,6 +6,8 @@ import Work from "./Pages/Work";
 import Resume from "./Pages/Resume";
 import Leadership from "./Pages/Leadership";
 import BucketList from "./Pages/BucketList";
+import Blog from "./Pages/Blog";
+import Travel from "./Pages/Travel";
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 
 
@@ -33,6 +35,8 @@ function App() {
           <Route path="/Resume" element={<Resume isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} />} />
           <Route path="/Leadership" element={<Leadership isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} />} />
           <Route path="/BucketList" element={<BucketList isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} />} />
+          <Route path="/Blog" element={<Blog isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} />} />
+          <Route path="/Travel" element={<Travel isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} />} />
           <Route path="*" element={<Navigate to="/" isDarkMode={isDarkMode} toggleDarkMode={toggleDarkMode} />} />
         </Routes>
       </Router>

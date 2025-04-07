@@ -1,7 +1,7 @@
 import React from "react"
-import Navbar from "../components/Navbar"
-import resumepdf from "../image/Resume.pdf"
-import Contact from "../components/Contact"
+import Navbar from "../components/Navbar.jsx"
+import resumepdf from "../image/resume.pdf"
+import Contact from "../components/Contact.jsx"
 import { TabTitle } from "../utils/genfun.js"
 
 export default function Resume({ isDarkMode, toggleDarkMode }){

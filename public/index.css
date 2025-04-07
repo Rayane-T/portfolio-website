@@ -15,8 +15,6 @@
   --secondary-color: #212121;
 }
 
-
-
 .hover-animation {
   height: 290px;
   width: 290px;
@@ -324,8 +322,9 @@ nav a {
   color: #4dc1a6;;
 }
 .hero--section {
-  font-weight: bold;
+  padding-top: 130px;
   color: var(--secondary-color);
+  font-family:Arial, Helvetica, sans-serif;
 }
 
 .list--arrangment {
@@ -345,18 +344,70 @@ nav a {
   margin-top: 10px;
   color: var(--secondary-color);
 }
+
 .social > li {
-  margin: 25px;
-  transition: 1s;
-}
-.hero--p {
-  font-family: "Montserrat", sans-serif;
-  font-size: 17px;
-  margin: 0 auto;
-  width: 1000px;
-  color: var(--secondary-color);
+  margin: 3px; /* Reduced the margin to bring icons closer */
+  transition: 0.3s; /* Reduced transition time for quicker hover effect */
 }
 
+.hero--education ul {
+  list-style-type: none; /* Remove default bullets */
+  padding: 0;
+}
+
+.hero--education li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px; /* Space between items */
+}
+
+
+
+.hero--p {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  width: 1200px;
+  color: var(--secondary-color);
+  display: flex;
+  justify-content: space-between; /* Ensure space between bio and about sections */
+  max-width: 1200px; /* Ensure the overall width is controlled */
+  margin: 0 auto; /* Center the container */
+  flex-wrap: wrap; /* Allow wrapping for smaller screens */
+}
+.hero--bio, .hero--about {
+  flex: 1; /* Allows both divs to take equal width */
+  margin-bottom: 30px;
+}
+.hero--bio {
+  text-align:center; /* Center content in the bio */
+}
+.hero--profile-pic {
+  width: 160px;
+  height: 160px;
+  border-radius:50%;
+  margin-bottom: 15px;
+  border: 4px solid #ddd; /* Subtle border */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  object-fit: cover; /* Ensures the image scales properly inside the circle */
+}
+.hero--name {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+.hero--position {
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: #777;
+}
+.hero--company {
+  font-size: 16px;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+.hero--about {
+  flex: 2; /* Make the about section twice the size of the bio section */
+}
 .hero--fp {
   max-width: 1000px;
   margin: 0 auto;
@@ -366,6 +417,100 @@ nav a {
   max-width: 1000px;
   margin: 0 auto;
 }
+.hero--info-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+/* Flex properties for sections */
+.hero--interests, .hero--education {
+  flex: 1;
+  padding: 20px;
+  font-size: 1em;
+  margin-top: 7px;
+}
+
+
+.edu--title{
+  font-size: 1.35em;
+  margin-bottom: 10px;
+}
+.int--title{
+  font-size: 1.4em;
+  margin-left: -20px;
+  margin-bottom: 10px;
+}
+/* Special flex for Education section */
+.hero--education {
+  flex: 2;
+}
+
+/* University names styling */
+.hero--uni {
+  font-style: italic;
+  font-size: 0.95em;
+  margin-top: 4px; /* Small gap from the text */
+}
+
+/* Education item styling */
+.education-item {
+  margin-left: -30px;
+  margin-bottom: 10px;
+}
+
+/* Degree wrapper to align the SVG and text horizontally */
+.degree-wrapper {
+  display: flex;
+  align-items: center; /* Align icon and text vertically */
+  margin-left: 32px; /* Indent the degree info */
+}
+
+/* Education text and icon alignment */
+.edu-icon {
+  margin-right: 8px;
+  display: inline-block;
+}
+
+.edu-text {
+  display: inline-block;
+}
+
+/* Bullet style for interest items */
+.interest-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.hero--button {
+  display: flex;  
+  margin-top: 15px;
+}
+
+.download-button {
+  display: inline-flex;
+  align-items: center; /* Align icon and text vertically */
+  padding: 8px 12px;
+  border: 1px solid #2d2d2d; /* Matte black border */
+  border-radius: 5px; /* Rounded corners */
+  color: rgb(37, 36, 36); /* Text color */
+  font-family: 'Arial', sans-serif; /* Clean, simple font */
+  font-size: 0.8em;
+  background-color: transparent; /* Transparent background */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover effect */
+  width: auto; /* Make sure the button container is only as wide as the content */
+}
+
+.download-button:hover {
+  background-color: #878f85; /* Change background color on hover */
+  color: #2d2d2d; /* Change text color on hover */
+}
+
+.download-icon {
+  margin-right: 8px; /* Space between icon and text */
+}
+
 
 .card-work {
   margin-top: 150px;
@@ -409,7 +554,12 @@ nav a {
   font-size: 17px;
   color: var(--secondary-color);
 }
-
+.t{
+  font-size: 30px;
+  margin-bottom: 10px;
+  margin-top: 60px;
+  font-weight: bold;
+}
 .footer-item_l > a {
   display: flex;
   flex-direction: column;
@@ -537,9 +687,6 @@ nav a:hover {
     margin: 10% auto 0;
   }
 }
-
-
-
 
 .css-1h8gyx6 {
   line-height: 1.2;
