@@ -117,20 +117,28 @@ export const workCards = [
       "Worked on 3D Human Body Reconstruction for Real-Time Clothed Animation",
     tags: ["ML", "Computer Graphics", "Python3", "PyTorch"],
   },
+    {
+    title: "Pisciner",
+    company: "42 Berlin",
+    period: "June 2022 - Jul 2022",
+    description:
+      "An intensive 4-week coding bootcamp focused on C programming and software dev",
+    tags: ["C", "Algorithms", "Systems"],
+  },
   {
     title: "Mathematics Tutor",
-    company: "Mathematics Society of Marie Curie's High School",
+    company: "Private Tutoring",
     period: "Nov 2020 - Feb 2021",
     description:
-      "Tutored a group of students in statistics, probability, scalar product, and mathematical series.",
+      "Tutored a group of 7 10th- and 11th-grade high school students",
     tags: ["Mathematics", "Teaching"],
   },
 ];
 
 export const leadershipCards = [
   {
-    title: "Volunteer Staff",
-    company: "Indian Institute of Technology, Bombay",
+    title: "RISC 2024 Symposium",
+    company: "Volunteer Staff",
     period: "2024",
     description:
       "Organizing RISC 2024 - IIT Bombay annual symposium showcasing research in the computer science and engineering department.",
