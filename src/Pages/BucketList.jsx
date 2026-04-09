@@ -1,12 +1,10 @@
 import React from "react"
 import Navbar from "../components/Navbar.jsx"
-import { TabTitle } from "../utils/genfun.js"
 import Contact from "../components/Contact.jsx"
 
 export default function BucketList({ isDarkMode, toggleDarkMode }){
-    TabTitle('List 100 | Rayane Tayache')
     return(
-        <div className={isDarkMode ? 'dark-mode' : ''}>
+        <div>
         <Navbar toggleDarkMode={toggleDarkMode} isDarkMode={isDarkMode}/>
             <div className="hero--work">
                 <h1>List 100 </h1>

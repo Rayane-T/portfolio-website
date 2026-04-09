@@ -1,9 +1,8 @@
 import React from "react"
-import logo1 from '../image/Main Logo2.png'
-import logo2 from '../image/Main Logo.png'
+import Image from "next/image"
 import { IoSchoolOutline } from "react-icons/io5";
 import id from '../image/aWGznyT0.jpeg'
-import { NavLink } from "react-router-dom"
+import Link from "next/link"
 import { IconContext } from "react-icons"
 import {FaGithubSquare,FaLinkedin} from "react-icons/fa"
 import {BsListNested} from "react-icons/bs"
@@ -11,10 +10,7 @@ import {AiOutlineMail} from "react-icons/ai"
 import {GoCalendar} from "react-icons/go"
 import { FaDownload } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
-import { FaTwitter } from "react-icons/fa";
-
-
-import '../darkmode.css';
+import { RESUME_URL } from "../config/links";
 
 export default function Hero(){
 
@@ -23,7 +19,7 @@ export default function Hero(){
                 <div className="hero--p">
                 <div className="hero--bio">
                     {/* Profile Picture */}
-                    <img src={id} alt="RT" className="hero--profile-pic" />
+                    <Image src={id} alt="RT" className="hero--profile-pic" priority />
                     
                     {/* Name */}
                     <h2 className="hero--name">Rayane Tayache</h2>
@@ -32,18 +28,18 @@ export default function Hero(){
                     <p className="hero--position">NLP Research Project</p>
 
                     {/* Company */}
-                    <p className="hero--company"><a href="https://icube.unistra.fr" target="_blank" >@ ICUBE Laboratory</a></p>
+                    <p className="hero--company"><a href="https://icube.unistra.fr" target="_blank" rel="noreferrer" >@ ICUBE Laboratory</a></p>
 
                     <ul className="social">
                     <IconContext.Provider value={{ color: "black"}}>
-                    <li><a href="https://github.com/Rayane-T" target="_blank" ><FaGithubSquare size="0.8em" className="logo--color" /></a></li>
-                    <li><a href="https://www.linkedin.com/in/rayanetayache/" target="_blank" ><FaLinkedin size="0.8em" className="logo--color"/></a></li>
-                    <li><a href="https://www.instagram.com/flemzzer/" target="_blank" ><FaInstagram size="0.8em" className="logo--color"/></a></li>
+                    <li><a href="https://github.com/Rayane-T" target="_blank" rel="noreferrer" ><FaGithubSquare size="0.8em" className="logo--color" /></a></li>
+                    <li><a href="https://www.linkedin.com/in/rayanetayache/" target="_blank" rel="noreferrer" ><FaLinkedin size="0.8em" className="logo--color"/></a></li>
+                    <li><a href="https://www.instagram.com/flemzzer/" target="_blank" rel="noreferrer" ><FaInstagram size="0.8em" className="logo--color"/></a></li>
 
-                    <li><NavLink to="/BucketList"><BsListNested size="0.8em" className="logo--color"/></NavLink></li>
-                    <li><a href="mailto:rayane.tayache@etu.unistra.fr" target="_blank" ><AiOutlineMail size="0.8em" className="logo--color"/></a></li>
+                    <li><Link href="/bucketlist"><BsListNested size="0.8em" className="logo--color"/></Link></li>
+                    <li><a href="mailto:rayane.tayache@etu.unistra.fr" target="_blank" rel="noreferrer" ><AiOutlineMail size="0.8em" className="logo--color"/></a></li>
                     
-                    <li><a href="https://calendly.com/rayane-tayache/30min" target="_blank" ><GoCalendar size="0.8em"className="logo--color"/></a></li>
+                    <li><a href="https://calendly.com/rayane-tayache/30min" target="_blank" rel="noreferrer" ><GoCalendar size="0.8em"className="logo--color"/></a></li>
                     
                     </IconContext.Provider>
                 </ul>   
@@ -70,9 +66,9 @@ export default function Hero(){
                     I love talking about game theory applications, Books and about food options in the Kyoto area, I am also a sucker for all sorts of adventurous activities recommendation. - So feel free to hit me up via email or set-up some time in my schedule by clicking the calendar below!
                     </p>
                     <div className="hero--button">
-                    <NavLink to="/Resume" className="download-button">
+                    <a href={RESUME_URL} target="_blank" rel="noreferrer" className="download-button">
                       <FaDownload className="download-icon" /> Download CV
-                    </NavLink>
+                    </a>
                   </div>
                   <div className="hero--info-container">
                     <div className="hero--interests">

@@ -1,5 +1,5 @@
 import React from "react"
-import { NavLink } from "react-router-dom"
+import Link from "next/link"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSun, faMoon } from '@fortawesome/free-solid-svg-icons';
 
@@ -8,19 +8,29 @@ export default function Navbar({ toggleDarkMode, isDarkMode}){
 
     return (
         <nav>
-            <NavLink to="/" className="nav--leftside">RT</NavLink>
+            <Link href="/" className="nav--leftside">RT</Link>
             <div className="nav--rightside">
-                <NavLink to="/">About</NavLink>
-                <NavLink to="/Projects">Projects</NavLink>
-                <NavLink to="/Work">Experience</NavLink>
-                {/* <NavLink to="/Blog">Blog</NavLink>*/}
-                {/*  <NavLink to="/Travel">Travel</NavLink> */}
-            <div className="icon-container" onClick={toggleDarkMode}>
-                <FontAwesomeIcon
-                icon={isDarkMode ? faSun : faMoon}
-                className="icon"
-                />
-            </div>
+                <Link href="/">About</Link>
+                <Link href="/projects">Projects</Link>
+                <Link href="/work">Experience</Link>
+                {/* <Link href="/blog">Blog</Link>*/}
+                {/*  <Link href="/travel">Travel</Link> */}
+                <button
+                    type="button"
+                    className="theme-switch"
+                    onClick={toggleDarkMode}
+                    aria-label={isDarkMode ? "Switch to light mode" : "Switch to dark mode"}
+                    aria-pressed={isDarkMode}
+                >
+                    <span className="theme-switch-track">
+                        <span className="theme-switch-thumb">
+                            <FontAwesomeIcon
+                                icon={isDarkMode ? faSun : faMoon}
+                                className="icon"
+                            />
+                        </span>
+                    </span>
+                </button>
             </div>
         </nav>
     )

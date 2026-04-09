@@ -1,12 +1,10 @@
 import React from "react"
 import Navbar from "../components/Navbar.jsx"
 import CardLeadership from "../components/cardLeadership"
-import { TabTitle } from "../utils/genfun.js"
 
 export default function Leadership({ isDarkMode, toggleDarkMode }){
-    TabTitle('Leadership | Rayane Tayache')
     return(
-        <div className={isDarkMode ? 'dark-mode' : ''}>
+        <div>
             <Navbar toggleDarkMode={toggleDarkMode} isDarkMode={isDarkMode}/>
             <div className="hero--work">
                 <h1>Leadership Experience 💭</h1>
