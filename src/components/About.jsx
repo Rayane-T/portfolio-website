@@ -29,10 +29,10 @@ export default function Hero(){
                     <h2 className="hero--name">Rayane Tayache</h2>
 
                     {/* Position */}
-                    <p className="hero--position">Prev ML Intern</p>
+                    <p className="hero--position">NLP Research Project</p>
 
                     {/* Company */}
-                    <p className="hero--company">CNRS-ICUBE</p>
+                    <p className="hero--company"><a href="https://icube.unistra.fr" target="_blank" >@ ICUBE Laboratory</a></p>
 
                     <ul className="social">
                     <IconContext.Provider value={{ color: "black"}}>
@@ -54,20 +54,20 @@ export default function Hero(){
                       About Me
                     </p>
                     <p className="hero--fp">
-                      Hey, my name is <span className="name">Rayane Tayache</span> and I’m a Computer Science major at{' '}
+                      Hey, my name is <span className="name">Rayane Tayache</span> and I’m a Data Science major at{' '}
                       <a href="https://en.unistra.fr/" className="a-about">
                         University of Strasbourg
                       </a>{' '}
-                      in my third year, planning on graduating by June 2024. Outside of school, I enjoy running 10k's, freestyle skiing and playing average chess.
+                      in my first year, planning on graduating by June 2027. Outside of school, I enjoy running 10k's, alpine & cross-country skiing and playing chess.
 
 
                     </p>
                     <p className="hero--fp">
-                      I previously interned as a ML Researcher at the CNRS and completed a semester exchange
-                      at the Indian Institute of Technology, Bombay. I'm open to chat about research, internship and fellowship opportunities for 2025.
+                      I'm currently working on Early Text Classification at ICube Laboratory until May 2026 and I previously interned as a ML Researcher at the CNRS and completed a semester exchange
+                      at the Indian Institute of Technology, Bombay. I'm open to chat about research, internship and fellowship opportunities for 2026.
                     </p>
                     <p className="hero--sp">
-                    I love talking about Quant strategies, Books and about food options in the Mumbai area, I am also a sucker for all sorts of adventurous activities recommendation. - So feel free to hit me up via email or set-up some time in my schedule by clicking the calendar below!
+                    I love talking about game theory applications, Books and about food options in the Kyoto area, I am also a sucker for all sorts of adventurous activities recommendation. - So feel free to hit me up via email or set-up some time in my schedule by clicking the calendar below!
                     </p>
                     <div className="hero--button">
                     <NavLink to="/Resume" className="download-button">
@@ -78,8 +78,8 @@ export default function Hero(){
                     <div className="hero--interests">
                       <p className="int--title">Interests</p>
                       <ul>
-                        <li>Probability Theory</li>
-                        <li>Artificial Intelligence</li>
+                        <li>Natural Language Processing</li>
+                        <li>Time Series Forecasting</li>
                         <li>Financial Markets</li>
                       </ul>
                     </div>
@@ -89,11 +89,21 @@ export default function Hero(){
                     <div className="degree-wrapper">
                       <IoSchoolOutline size="1.5em" className="edu-icon" />
                       <div className="edu-details">
-                        <span className="edu-degree">BSc Computer Science</span> <br />
+                        <span className="edu-degree">MSc, Data Science '27</span> <br />
+                        <span className="hero--uni">University of Strasbourg</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="education-item">
+                    <div className="degree-wrapper">
+                      <IoSchoolOutline size="1.5em" className="edu-icon" />
+                      <div className="edu-details">
+                        <span className="edu-degree">BSc Computer Science '25</span> <br />
                         <span className="hero--uni">University of Strasbourg with SemEx at IIT Bombay</span>
                       </div>
                     </div>
                   </div>
+                
                 </div>
                 </div>
                 </div>
