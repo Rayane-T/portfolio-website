@@ -27,9 +27,9 @@ export default function Hero(){
                     {/* Position */}
                     <p className="hero--position">NLP Research Project</p>
 
-                    {/* Company */}
-                    <p className="hero--company"><a href="https://icube.unistra.fr" target="_blank" rel="noreferrer" >@ ICUBE Laboratory</a></p>
-
+                    
+                    <p className="hero--company"><a href="https://icube.unistra.fr" target="_blank" rel="noreferrer" >@ ICube Laboratory</a></p>
+                    
                     <ul className="social">
                     <IconContext.Provider value={{ color: "black"}}>
                     <li><a href="https://github.com/Rayane-T" target="_blank" rel="noreferrer" ><FaGithubSquare size="0.8em" className="logo--color" /></a></li>
@@ -50,11 +50,11 @@ export default function Hero(){
                       About Me
                     </p>
                     <p className="hero--fp">
-                      Hey, my name is <span className="name">Rayane Tayache</span> and I’m a Data Science major at{' '}
+                      Hey, my name is <span className="name">Rayane Tayache</span> and I’m a first year Master student in Data Science at{' '}
                       <a href="https://en.unistra.fr/" className="a-about">
                         University of Strasbourg
                       </a>{' '}
-                      in my first year, planning on graduating by June 2027. Outside of school, I enjoy running 10k's, alpine & cross-country skiing and playing chess.
+                      , planning on graduating by June 2027. Outside of school, I enjoy running 10k's, alpine & cross-country skiing and playing chess.
 
 
                     </p>
