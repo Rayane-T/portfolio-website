@@ -20,6 +20,18 @@ export default function Work({ isDarkMode, toggleDarkMode }){
                 <p className="p2">- Each section outlines the organization, my role, time spent and a brief description of what I did</p>
             </div>
             <CardLeadership/>
+            <section className="certifications-section" aria-label="Certifications">
+                <h2>Certifications</h2>
+                <ul className="certifications-list">
+                    <li className="certification-item">
+                        <div className="certification-main">
+                            <span className="certification-name">TOEIC (ETS)</span>
+                            <span className="certification-level">C1 level equivalent</span>
+                        </div>
+                        <span className="certification-score">955/990</span>
+                    </li>
+                </ul>
+            </section>
             <Contact/>
         </div>
     )

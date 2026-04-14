@@ -466,19 +466,26 @@ nav a {
 }
 .hero--bio {
   text-align:center; /* Center content in the bio */
+  --identity-width: 160px;
 }
 .hero--profile-pic {
-  width: 160px;
-  height: 160px;
-  border-radius:50%;
-  margin-bottom: 15px;
-  border: 4px solid #ddd; /* Subtle border */
+  width: var(--identity-width);
+  height: var(--identity-width);
+  display: block;
+  border-radius: 5px;
+  margin: 0 auto 12px;
+  border: 0;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
   object-fit: cover; /* Ensures the image scales properly inside the circle */
 }
 .hero--name {
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  white-space: nowrap;
   font-size: 1.4em;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
 }
 .hero--position {
   font-size: 18px;
@@ -992,6 +999,57 @@ nav a:hover {
   opacity: 1;
 }
 
+.certifications-section {
+  width: 100%;
+  max-width: 1120px;
+  margin: 32px auto 24px;
+  padding: 0 20px;
+}
+
+.certifications-section h2 {
+  margin-bottom: 10px;
+  font-size: 1.15rem;
+}
+
+.certifications-list {
+  list-style: none;
+}
+
+.certification-item {
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  background: var(--surface-color);
+  padding: 12px 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.certification-main {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.certification-name {
+  font-weight: 600;
+}
+
+.certification-level {
+  font-size: 0.84rem;
+  color: var(--muted-color);
+}
+
+.certification-score {
+  border: 1px solid var(--border-color);
+  border-radius: 999px;
+  padding: 3px 10px;
+  font-size: 0.82rem;
+  color: var(--muted-color);
+  background: color-mix(in srgb, var(--accent-color) 10%, var(--surface-color));
+}
+
 @media screen and (max-width: 1024px) {
   nav {
     padding: 30px 24px;
@@ -1033,6 +1091,10 @@ nav a:hover {
 
   .contact--footbar {
     justify-content: space-between;
+  }
+
+  .certifications-section {
+    padding: 0 20px;
   }
 }
 
@@ -1076,9 +1138,13 @@ nav a:hover {
     gap: 18px;
   }
 
+  .hero--bio {
+    --identity-width: 132px;
+  }
+
   .hero--profile-pic {
-    width: 132px;
-    height: 132px;
+    width: var(--identity-width);
+    height: var(--identity-width);
   }
 
   .t {
@@ -1126,6 +1192,15 @@ nav a:hover {
 
   .minimal-section {
     padding: 20px 14px 8px;
+  }
+
+  .certifications-section {
+    padding: 0 14px;
+  }
+
+  .certification-item {
+    flex-direction: column;
+    align-items: flex-start;
   }
 
   .minimal-grid {

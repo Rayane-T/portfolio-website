@@ -11,14 +11,21 @@ export const projectCards = [
     description:
       "Information extraction pipeline using LLMs for battery datasheet understanding.",
     href: "https://git.unistra.fr/tayache/llm-based-battery-datasheet-information",
-    tags: ["AI", "LLM", "NLP"],
+    tags: ["AI", "RAG", "NLP"],
   },
   {
-    title: "Early detection of failures of French companies",
+    title: "Scaling LLM Workloads on Multi-Core Clusters",
     description:
-      "Machine learning project for early prediction of French company failures.",
+      "Optimized LLM performance through distributed computing across multi-core clusters.",
+    href: "https://github.com/Rayane-T",
+    tags: ["LLM", "OpenMP", "MPI", "Distributed Computing"],
+  },
+  {
+    title: "Early detection of credit default of companies",
+    description:
+      "Using data.gouv.fr datasets, we applied undersampling and SMOTE techniques to address class imbalance, and trained an XGBoost model.",
     href: "https://git.unistra.fr/tayache/ml_prediction_defaillance",
-    tags: ["AI", "Machine Learning", "Risk Prediction"],
+    tags: ["AI", "Undersampling", "SMOTE", "XGBoost"],
   },
   {
     title: "SigmaZero",
@@ -28,7 +35,7 @@ export const projectCards = [
     tags: ["AI", "Reinforcement Learning", "Game AI"],
   },
   {
-    title: "Compiler AFSTAT",
+    title: "Statistical Language Compiler",
     description:
       "Compiler for the language AFSTAT.",
     href: "https://git.unistra.fr/zaied/compilation",
