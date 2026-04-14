@@ -11,6 +11,7 @@ import {GoCalendar} from "react-icons/go"
 import { FaDownload } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { RESUME_URL } from "../config/links";
+import { openContactEmail } from "../utils/contact";
 
 export default function Hero(){
 
@@ -37,7 +38,16 @@ export default function Hero(){
                     <li><a href="https://www.instagram.com/flemzzer/" target="_blank" rel="noreferrer" ><FaInstagram size="0.8em" className="logo--color"/></a></li>
 
                     <li><Link href="/bucketlist"><BsListNested size="0.8em" className="logo--color"/></Link></li>
-                    <li><a href="mailto:rayane.tayache@etu.unistra.fr" target="_blank" rel="noreferrer" ><AiOutlineMail size="0.8em" className="logo--color"/></a></li>
+                    <li>
+                      <button
+                        type="button"
+                        className="icon-link-button"
+                        onClick={openContactEmail}
+                        aria-label="Email"
+                      >
+                        <AiOutlineMail size="0.8em" className="logo--color"/>
+                      </button>
+                    </li>
                     
                     <li><a href="https://calendly.com/rayane-tayache/30min" target="_blank" rel="noreferrer" ><GoCalendar size="0.8em"className="logo--color"/></a></li>
                     

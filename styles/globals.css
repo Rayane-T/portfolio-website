@@ -53,6 +53,7 @@ body {
   color: var(--secondary-color);
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
   transition: background-color 220ms ease, color 220ms ease;
 }
 
@@ -80,13 +81,22 @@ body {
 }
 .a-btn-gh-b {
   margin-bottom: 40px;
+  width: min(620px, 100%);
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.a-btn-gh-b a {
+  flex: 1 1 220px;
 }
 .btn-gh-b {
   padding: 10px;
   font-family: "Montserrat", sans-serif;
   margin: auto;
   border: none;
-  width: 50%;
+  width: 100%;
   color: var(--primary-color);
   font-weight: bold;
   background-color: var(--secondary-color);
@@ -316,6 +326,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 6px;
 }
 
 .nav--leftside {
@@ -325,7 +336,7 @@ nav {
 
 nav a {
   text-decoration: none;
-  padding: 9px 25px;
+  padding: 9px 16px;
 }
 .icon-container {
   display: flex;
@@ -397,7 +408,7 @@ nav a {
 .hero--section {
   padding-top: 130px;
   color: var(--secondary-color);
-  font-family:Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .list--arrangment {
@@ -437,18 +448,20 @@ nav a {
 
 
 .hero--p {
-  font-family:Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 17px;
-  width: 1200px;
+  width: min(1200px, 92vw);
   color: var(--secondary-color);
   display: flex;
   justify-content: space-between; /* Ensure space between bio and about sections */
+  gap: 32px;
   max-width: 1200px; /* Ensure the overall width is controlled */
   margin: 0 auto; /* Center the container */
   flex-wrap: wrap; /* Allow wrapping for smaller screens */
 }
 .hero--bio, .hero--about {
   flex: 1; /* Allows both divs to take equal width */
+  min-width: 280px;
   margin-bottom: 30px;
 }
 .hero--bio {
@@ -614,6 +627,9 @@ nav a {
   display: flex;
   justify-content: center;
   padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
   font-family: "Montserrat", sans-serif;
   color: var(--secondary-color);
 }
@@ -622,8 +638,11 @@ nav a {
   display: flex;
   width: 100%;
   justify-content: space-evenly;
-  padding-top: 190px;
+  padding-top: clamp(80px, 12vw, 190px);
   padding-bottom: 80px;
+  padding-left: 20px;
+  padding-right: 20px;
+  gap: 32px;
   font-size: 17px;
   color: var(--secondary-color);
 }
@@ -646,6 +665,36 @@ nav a {
   text-decoration: none;
   margin-bottom: 10px;
   font-family: "Montserrat", sans-serif;
+}
+
+.footer-link-button {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  font-family: "Montserrat", sans-serif;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  font-size: inherit;
+  cursor: pointer;
+  text-align: left;
+  padding: 0;
+}
+
+.footer-link-button:hover {
+  color: var(--accent-color);
+}
+
+.icon-link-button {
+  border: 0;
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+  color: inherit;
+  font-size: inherit;
+  line-height: 1;
+  display: inline-flex;
+  align-items: center;
 }
 .footer-title {
   font-weight: bold;
@@ -941,4 +990,215 @@ nav a:hover {
 
 .minimal-card-experience:hover::before {
   opacity: 1;
+}
+
+@media screen and (max-width: 1024px) {
+  nav {
+    padding: 30px 24px;
+  }
+
+  nav a {
+    padding: 8px 12px;
+    font-size: 1rem;
+  }
+
+  .hero--section {
+    padding-top: 100px;
+  }
+
+  .hero--p {
+    width: min(960px, 94vw);
+    gap: 24px;
+  }
+
+  .hero--bio,
+  .hero--about {
+    flex: 1 1 100%;
+  }
+
+  .hero--interests,
+  .hero--education {
+    flex: 1 1 300px;
+  }
+
+  .hero--work {
+    padding: 100px 20px 0;
+  }
+
+  .hero--work h1,
+  .p1,
+  .p2 {
+    text-align: center;
+  }
+
+  .contact--footbar {
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    height: auto;
+    min-height: 64px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 16px 14px;
+  }
+
+  .nav--leftside {
+    font-size: 1.1rem;
+  }
+
+  .nav--rightside {
+    width: 100%;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 4px;
+  }
+
+  nav a {
+    padding: 6px 10px;
+    font-size: 0.95rem;
+  }
+
+  .theme-switch {
+    margin-left: 0;
+  }
+
+  .hero--section {
+    padding-top: 72px;
+  }
+
+  .hero--p {
+    width: 94vw;
+    font-size: 16px;
+    gap: 18px;
+  }
+
+  .hero--profile-pic {
+    width: 132px;
+    height: 132px;
+  }
+
+  .t {
+    font-size: 1.6rem;
+    margin-top: 24px;
+  }
+
+  .hero--fp,
+  .hero--sp {
+    max-width: 100%;
+    margin: 0;
+    padding-bottom: 16px;
+  }
+
+  .hero--button {
+    justify-content: center;
+  }
+
+  .download-button {
+    font-size: 0.9rem;
+  }
+
+  .hero--info-container {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .hero--interests,
+  .hero--education {
+    padding: 12px 0;
+  }
+
+  .int--title {
+    margin-left: 0;
+  }
+
+  .education-item {
+    margin-left: 0;
+  }
+
+  .degree-wrapper {
+    margin-left: 0;
+    align-items: flex-start;
+  }
+
+  .minimal-section {
+    padding: 20px 14px 8px;
+  }
+
+  .minimal-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .minimal-card-head {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .minimal-period-badge {
+    align-self: flex-start;
+  }
+
+  .contact--footbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 72px;
+    padding-bottom: 44px;
+    gap: 24px;
+  }
+
+  .mention {
+    font-size: 0.9rem;
+    padding-bottom: 24px;
+  }
+
+  .wrapper,
+  .card {
+    width: 100%;
+    max-width: 360px;
+  }
+
+  .card {
+    height: 320px;
+  }
+
+  .project--section {
+    padding: 20px 14px;
+  }
+
+  .project--btitle {
+    padding-top: 140px;
+    padding-left: 16px;
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  nav {
+    padding: 14px 10px;
+  }
+
+  nav a {
+    padding: 6px 8px;
+    font-size: 0.9rem;
+  }
+
+  .hero--name {
+    font-size: 1.2rem;
+  }
+
+  .hero--position,
+  .hero--company {
+    font-size: 0.95rem;
+  }
+
+  .social {
+    font-size: 26px;
+  }
+
+  .a-btn-gh-b {
+    gap: 10px;
+  }
 }
